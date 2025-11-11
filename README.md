@@ -47,7 +47,7 @@ This project implements a comprehensive end-to-end data pipeline designed to han
 
 Our architecture follows modern data engineering best practices with a clear separation of concerns across ingestion, processing, storage, and visualization layers.
 
-![Architecture Diagram](./images.architecture.jpg)
+![Architecture Diagram](https://github.com/arpittomar246/Healthcare-data-pipeline/blob/main/images/architecture.jpg)
 
 ### Architecture Components
 
