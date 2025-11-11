@@ -1,18 +1,34 @@
-# Python / venv
-.venv/
-.env
-*.pyc
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.envrc
 
-# Local data and logs
-local_data/
-logs/
-jars/
-*.sqlite3
+# IDEs
+.vscode/
+.idea/
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
-# Editor
-.vscode/
+# local data / artifacts generated at runtime (but you may choose to keep small sample data)
+local_data/raw/
+local_data/artifacts/*
+!local_data/artifacts/.gitkeep
+
+# logs and temp
+*.log
+
+# python build
+dist/
+build/
+*.egg-info/
+
+# secrets / creds
+utils/*.key
+

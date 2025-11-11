@@ -1,0 +1,4 @@
+drug_id,drug_brand_name,drug,drug_type
+10,DrugA,IngredientA,antibiotic
+11,DrugB,IngredientB,analgesic
+12,DrugC,IngredientC,ALERGIC
