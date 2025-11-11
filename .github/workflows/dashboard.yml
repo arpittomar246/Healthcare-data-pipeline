@@ -27,7 +27,7 @@ jobs:
         # we run the script and capture stdout/stderr
         run: |
           mkdir -p local_data/artifacts
-          streamlit run run_dashboard.py
+          python -m src.runnerfile --config utils/project.cfg --force-fresh --skip-anonymize
           
         timeout-minutes: 10
 
