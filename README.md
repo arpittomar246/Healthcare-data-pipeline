@@ -20,7 +20,7 @@ The project aims to build a single source of true data storage for large healthc
 ## **Architecture**
 The architecture of this project is presented as follows:
 
-![architecture_2](https://github.com/minhky2185/healthcare_data_pipeline/blob/main/images/architecture_2.png)
+![architecture_2](https://github.com/arpittomar246/Healthcare-data-pipeline/blob/main/images/architecture.jpg)
 
 - Data is sourced from PostgreSQL and ingested into `raw zone` of Data Lake hosted on S3.
 - Raw data is cleansed and standardized before moving to `cleansed zone`.
