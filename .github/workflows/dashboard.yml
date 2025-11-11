@@ -1,100 +1,38 @@
 name: Run dashboard (CI-run)
 
+# Allow manual run from Actions UI + run on push to main
 on:
   workflow_dispatch: {}
+  push:
+    branches: [ main ]
 
 jobs:
-  run-dashboard:
+  run_dashboard:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Python 3.11
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Ensure artifacts dir exists
-        run: mkdir -p local_data/artifacts
-
-      - name: Install dependencies (if requirements.txt exists)
+      - name: Install dependencies (if you have requirements.txt)
         run: |
-          if [ -f requirements.txt ]; then
-            python -m pip install --upgrade pip
-            pip install -r requirements.txt
-          else
-            echo "No requirements.txt present — skipping pip install"
-          fi
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run dashboard (background) and pipe logs
-        # start streamlit in headless mode and background it; save PID and logs
+      - name: Run dashboard script (one-shot)
+        # we run the script and capture stdout/stderr
         run: |
-          # run the dashboard in headless mode, write logs to artifact file
-          nohup python -u run_dashboard.py > local_data/artifacts/pipeline.log 2>&1 &
-          echo $! > local_data/artifacts/run_dashboard.pid
-          sleep 1
-          echo "Started run_dashboard.py (PID=$(cat local_data/artifacts/run_dashboard.pid))"
-        env:
-          # prevent Streamlit from trying to open a browser
-          STREAMLIT_BROWSER_GC_WARN: "1"
+          mkdir -p local_data/artifacts
+          python run_dashboard.py > local_data/artifacts/pipeline.log 2>&1 || true
+        timeout-minutes: 10
 
-      - name: Wait for server to become ready (up to 60s)
-        run: |
-          set -e
-          t=0
-          until curl --max-time 3 -fsS http://127.0.0.1:8501/ >/dev/null 2>&1 || [ $t -ge 60 ]; do
-            sleep 1
-            t=$((t+1))
-            echo "waiting for http://127.0.0.1:8501/ ($t)"
-          done
-          if curl -fsS http://127.0.0.1:8501/ >/dev/null 2>&1; then
-            echo "Streamlit responded on http://127.0.0.1:8501/"
-          else
-            echo "::warning::Streamlit did not respond within 60s — see pipeline.log"
-          fi
-
-      - name: Show tail of pipeline.log (for immediate visibility)
-        run: |
-          echo "==== tail of pipeline.log (last 200 lines) ===="
-          tail -n 200 local_data/artifacts/pipeline.log || true
-
-      - name: Run smoke-check against Streamlit (index)
-        run: |
-          if curl --max-time 3 -fsS http://127.0.0.1:8501/ >/dev/null 2>&1; then
-            echo "OK: server up"
-          else
-            echo "::warning::server not reachable; showing first 400 bytes of log"
-            head -c 400 local_data/artifacts/pipeline.log || true
-            exit 0
-          fi
-
-      - name: Keep server running a little while (optional)
-        run: |
-          echo "Server will run for 30s to let app initialize (job will continue)."
-          sleep 30
-
-      - name: Collect logs/artifacts
+      - name: Upload pipeline.log
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: dashboard-artifacts
-          path: |
-            local_data/artifacts/pipeline.log
-            local_data/artifacts/*.html
-            local_data/artifacts/*.csv
-            local_data/artifacts/*.json
-            local_data/artifacts/run_dashboard.pid
-
-      - name: Stop run_dashboard (kill background process)
-        if: always()
-        run: |
-          if [ -f local_data/artifacts/run_dashboard.pid ]; then
-            pid=$(cat local_data/artifacts/run_dashboard.pid)
-            echo "Killing PID $pid"
-            kill $pid || true
-            sleep 1
-          else
-            echo "No PID file found; nothing to stop."
-          fi
+          name: pipeline-log
+          path: local_data/artifacts/pipeline.log
