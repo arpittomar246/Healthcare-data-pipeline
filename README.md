@@ -108,6 +108,17 @@ A three-zone medallion architecture:
 - **Testing Support**: Unit and integration test frameworks
 - **JAR Management**: JDBC driver handling for database connections
 
+
+## Dashboard Overview
+
+![Top drug share](https://github.com/arpittomar246/Healthcare-data-pipeline/blob/main/images/reports%20and%20live%20stats.png)
+
+**Key Insights:**
+- Top prescribers by specialty
+- Geographic distribution
+- Prescription patterns
+- Provider performance metrics
+
 ---
 
 ## Technology Stack
@@ -272,7 +283,7 @@ Optimize for analytics:
 
 ### Drug Analytics Dashboard
 
-![Drug Dashboard](./images/drug_dashboard.png)
+![Top drug by prescription](https://github.com/arpittomar246/Healthcare-data-pipeline/blob/main/images/top%20drug%20by%20prescriptions.png)
 
 **Key Metrics:**
 - Top prescribed medications by volume
@@ -282,7 +293,7 @@ Optimize for analytics:
 
 ### Prescriber Analytics Dashboard
 
-![Prescriber Dashboard](./images/prescriber_dashboard.png)
+![Top drug share](https://github.com/arpittomar246/Healthcare-data-pipeline/blob/main/images/top%20drug%20share.png)
 
 **Key Insights:**
 - Top prescribers by specialty
@@ -411,6 +422,15 @@ spark.memory.fraction = 0.8
 | **Large** | 16 | 8 GB | 4 | 64 |
 
 ---
+## Dashboard report Overview
+
+![Top drug share](https://github.com/arpittomar246/Healthcare-data-pipeline/blob/main/images/Automated%20eda%20report.png)
+
+![Top drug share](https://github.com/arpittomar246/Healthcare-data-pipeline/blob/main/images/Readable%20reports.png)
+
+
+
+
 
 ## Key Learnings
 
@@ -458,17 +478,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Contact
+## Authors
 
-**Author**: Arpit Tomar  
-**GitHub**: [@arpittomar246](https://github.com/arpittomar246)  
+**Author1**: Mahima Yadav (G24AI2027)  
+**Author2**: Pallavi Sarangi (G24AI2091)
+**Author3**: Muraliedhar Kanchibhotla (G24AI2014)
+**Author4**: Arpit Tomar (G24AI2001)
+
 **Project Link**: [Healthcare Data Pipeline](https://github.com/arpittomar246/Healthcare-data-pipeline)
 
-### Getting Help
-
-- Check the [Documentation](./docs)
-- Report bugs via [GitHub Issues](https://github.com/arpittomar246/Healthcare-data-pipeline/issues)
-- Join discussions in [GitHub Discussions](https://github.com/arpittomar246/Healthcare-data-pipeline/discussions)
 
 ---
 
