@@ -481,8 +481,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Authors
 
 **Author1**: Mahima Yadav (G24AI2027)  
+
 **Author2**: Pallavi Sarangi (G24AI2091)
+
 **Author3**: Muraliedhar Kanchibhotla (G24AI2014)
+
 **Author4**: Arpit Tomar (G24AI2001)
 
 **Project Link**: [Healthcare Data Pipeline](https://github.com/arpittomar246/Healthcare-data-pipeline)
