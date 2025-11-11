@@ -27,7 +27,8 @@ jobs:
         # we run the script and capture stdout/stderr
         run: |
           mkdir -p local_data/artifacts
-          python run_dashboard.py > local_data/artifacts/pipeline.log 2>&1 || true
+          streamlit run run_dashboard.py
+          
         timeout-minutes: 10
 
       - name: Upload pipeline.log
