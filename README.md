@@ -25,7 +25,7 @@
 - [Key Learnings](#key-learnings)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+- [Authors](#authors)
 
 ---
 
