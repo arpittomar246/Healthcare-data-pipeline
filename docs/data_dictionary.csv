@@ -1,0 +1,25 @@
+dataset,column_name,data_type,description,example_value
+prescriber,presc_id,int,Unique identifier for prescriber,101
+prescriber,presc_fullname,string,Full name of prescriber (no prefix),Rajesh Sharma
+prescriber,presc_specialty,string,Prescriber specialization or department,Cardiology
+prescriber,presc_state_code,string,Indian state code where prescriber practices,MH
+
+drug,drug_id,int,Unique identifier for drug,205
+drug,drug_name,string,Brand name of the drug,Augmentin
+drug,drug_type,string,Drug category or class,Antibiotic
+drug,manufacturer,string,Drug manufacturing company,Cipla Ltd
+drug,prescriptions,int,Number of prescriptions written for this drug,132
+drug,cost_per_unit,float,Average cost per dose/tablet,28.5
+
+prescriber_drug,presc_id,int,Foreign key linking to prescriber.csv,101
+prescriber_drug,drug_id,int,Foreign key linking to drug.csv,205
+prescriber_drug,num_prescriptions,int,Number of times this prescriber prescribed this drug,45
+prescriber_drug,total_cost,float,Total cost incurred for this drug by this prescriber,620.75
+prescriber_drug,state_code,string,Prescriber's state code for geographic grouping,MH
+
+pipeline.log,line,string,Sequential log entries of ETL and model steps,[2025-11-12 10:45] Pipeline started
+eda_report.html,section,string,EDA analysis sections,Top Drugs by Prescription
+eda_report.html,metric,string,Quantitative summary metrics,Total Prescriptions=6042
+
+model_metrics.json,metric,string,Model evaluation metric type,RMSE
+model_metrics.json,value,float,Metric numeric value,41.53
