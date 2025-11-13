@@ -8,6 +8,9 @@ import time
 import textwrap
 import json
 
+from pathlib import Path
+import glob
+
 try:
     import pandas as pd
 except Exception:
@@ -292,12 +295,39 @@ with left:
     if server_running and log_view.exists():
         iframe_url = "http://localhost:8502/log_view.html"
         st.info(f"HTTP server running — showing live log iframe: {iframe_url}")
-        st.components.v1.iframe(src=iframe_url, height=1550, scrolling=True)
+        st.components.v1.iframe(src=iframe_url, height=1200, scrolling=True)
     else:
         if st.button("Refresh logs (fallback tail)", key="btn_refresh_tail"):
             pass
         txt = tail_file(PIPELINE_LOG, n=st.session_state.tail_lines)
-        st.text_area("Pipeline logs (live)", value=txt, height=1550, key="pipeline_logs_area_fallback", disabled=True)
+        st.text_area("Pipeline logs (live)", value=txt, height=1200, key="pipeline_logs_area_fallback", disabled=True)
+        
+        
+    FIG_DIR = ARTIFACTS / "plots"
+    fig_paths = sorted(glob.glob(str(FIG_DIR / "*.*")))
+    if fig_paths:
+        st.markdown("**Model evaluation — figures**")
+        # show them in a 2-column grid (adjust columns count as desired)
+        cols = st.columns(2)
+        for i, fp in enumerate(fig_paths):
+            col = cols[i % 2]
+            name = Path(fp).name
+            # display image
+            try:
+                col.image(fp, caption=name, use_container_width =True)
+            except Exception:
+                # fallback: open file bytes
+                with open(fp, "rb") as _f:
+                    col.image(_f.read(), caption=name, use_container_width =True)
+
+            # # add a button to open in new tab (works when your HTTP server is running)
+            # if st.button(f"Open {name} in new tab", key=f"open_img_{name}"):
+            #     # uses JS to open; HTTP server should serve ARTIFACTS at localhost:8502
+            #     url = f"http://localhost:8502/plots/{name}"
+            #     js = f'<script>window.open("{url}", "_blank");</script>'
+            #     st.components.v1.html(js, height=20)
+    else:
+        st.info("No model evaluation images found in local_data/artifacts/model_eval_images")
 
 with right:
     st.subheader("Reports & Visuals")
