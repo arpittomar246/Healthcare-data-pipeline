@@ -1,0 +1,1001 @@
+drug_id,drug_brand_name,drug,drug_type
+1,IndiBrand327,Azithromycin,Antipyretic
+2,IndiBrand868,Amoxicillin,Antidiabetic
+3,IndiBrand327,Azithromycin,Antipyretic
+4,IndiBrand496,Ibuprofen,Vitamin Supplement
+5,IndiBrand895,Mefenamic acid,Bronchodilator
+6,IndiBrand6,Omeprazole,Antibiotic
+7,IndiBrand868,Amoxicillin,Antidiabetic
+8,IndiBrand868,Amoxicillin,Antidiabetic
+9,IndiBrand895,Mefenamic acid,Bronchodilator
+10,IndiBrand6,Omeprazole,Antibiotic
+11,IndiBrand496,Ibuprofen,Vitamin Supplement
+12,IndiBrand496,Ibuprofen,Vitamin Supplement
+13,IndiBrand749,Salbutamol,Antacid
+14,IndiBrand58,Doxycycline,Vitamin Supplement
+15,IndiBrand868,Amoxicillin,Antidiabetic
+16,IndiBrand868,Amoxicillin,Antidiabetic
+17,IndiBrand6,Omeprazole,Antibiotic
+18,IndiBrand868,Amoxicillin,Antidiabetic
+19,IndiBrand723,Insulin,NSAID
+20,IndiBrand868,Amoxicillin,Antidiabetic
+21,IndiBrand868,Amoxicillin,Antidiabetic
+22,IndiBrand327,Azithromycin,Antipyretic
+23,IndiBrand456,Ibuprofen,Bronchodilator
+24,IndiBrand456,Ibuprofen,Bronchodilator
+25,IndiBrand749,Salbutamol,Antacid
+26,IndiBrand58,Doxycycline,Vitamin Supplement
+27,IndiBrand58,Doxycycline,Vitamin Supplement
+28,IndiBrand868,Amoxicillin,Antidiabetic
+29,IndiBrand868,Amoxicillin,Antidiabetic
+30,IndiBrand868,Amoxicillin,Antidiabetic
+31,IndiBrand58,Doxycycline,Vitamin Supplement
+32,IndiBrand480,Aspirin,Bronchodilator
+33,IndiBrand456,Ibuprofen,Bronchodilator
+34,IndiBrand496,Ibuprofen,Vitamin Supplement
+35,IndiBrand456,Ibuprofen,Bronchodilator
+36,IndiBrand456,Ibuprofen,Bronchodilator
+37,IndiBrand58,Doxycycline,Vitamin Supplement
+38,IndiBrand480,Aspirin,Bronchodilator
+39,IndiBrand723,Insulin,NSAID
+40,IndiBrand749,Salbutamol,Antacid
+41,IndiBrand456,Ibuprofen,Bronchodilator
+42,IndiBrand723,Insulin,NSAID
+43,IndiBrand456,Ibuprofen,Bronchodilator
+44,IndiBrand6,Omeprazole,Antibiotic
+45,IndiBrand723,Insulin,NSAID
+46,IndiBrand480,Aspirin,Bronchodilator
+47,IndiBrand456,Ibuprofen,Bronchodilator
+48,IndiBrand723,Insulin,NSAID
+49,IndiBrand895,Mefenamic acid,Bronchodilator
+50,IndiBrand723,Insulin,NSAID
+51,IndiBrand868,Amoxicillin,Antidiabetic
+52,IndiBrand480,Aspirin,Bronchodilator
+53,IndiBrand895,Mefenamic acid,Bronchodilator
+54,IndiBrand496,Ibuprofen,Vitamin Supplement
+55,IndiBrand895,Mefenamic acid,Bronchodilator
+56,IndiBrand327,Azithromycin,Antipyretic
+57,IndiBrand749,Salbutamol,Antacid
+58,IndiBrand327,Azithromycin,Antipyretic
+59,IndiBrand749,Salbutamol,Antacid
+60,IndiBrand723,Insulin,NSAID
+61,IndiBrand496,Ibuprofen,Vitamin Supplement
+62,IndiBrand868,Amoxicillin,Antidiabetic
+63,IndiBrand749,Salbutamol,Antacid
+64,IndiBrand723,Insulin,NSAID
+65,IndiBrand723,Insulin,NSAID
+66,IndiBrand868,Amoxicillin,Antidiabetic
+67,IndiBrand327,Azithromycin,Antipyretic
+68,IndiBrand480,Aspirin,Bronchodilator
+69,IndiBrand895,Mefenamic acid,Bronchodilator
+70,IndiBrand6,Omeprazole,Antibiotic
+71,IndiBrand895,Mefenamic acid,Bronchodilator
+72,IndiBrand496,Ibuprofen,Vitamin Supplement
+73,IndiBrand480,Aspirin,Bronchodilator
+74,IndiBrand749,Salbutamol,Antacid
+75,IndiBrand6,Omeprazole,Antibiotic
+76,IndiBrand895,Mefenamic acid,Bronchodilator
+77,IndiBrand749,Salbutamol,Antacid
+78,IndiBrand456,Ibuprofen,Bronchodilator
+79,IndiBrand6,Omeprazole,Antibiotic
+80,IndiBrand58,Doxycycline,Vitamin Supplement
+81,IndiBrand327,Azithromycin,Antipyretic
+82,IndiBrand496,Ibuprofen,Vitamin Supplement
+83,IndiBrand723,Insulin,NSAID
+84,IndiBrand480,Aspirin,Bronchodilator
+85,IndiBrand868,Amoxicillin,Antidiabetic
+86,IndiBrand496,Ibuprofen,Vitamin Supplement
+87,IndiBrand496,Ibuprofen,Vitamin Supplement
+88,IndiBrand327,Azithromycin,Antipyretic
+89,IndiBrand496,Ibuprofen,Vitamin Supplement
+90,IndiBrand723,Insulin,NSAID
+91,IndiBrand868,Amoxicillin,Antidiabetic
+92,IndiBrand6,Omeprazole,Antibiotic
+93,IndiBrand868,Amoxicillin,Antidiabetic
+94,IndiBrand58,Doxycycline,Vitamin Supplement
+95,IndiBrand496,Ibuprofen,Vitamin Supplement
+96,IndiBrand496,Ibuprofen,Vitamin Supplement
+97,IndiBrand496,Ibuprofen,Vitamin Supplement
+98,IndiBrand868,Amoxicillin,Antidiabetic
+99,IndiBrand6,Omeprazole,Antibiotic
+100,IndiBrand58,Doxycycline,Vitamin Supplement
+101,IndiBrand58,Doxycycline,Vitamin Supplement
+102,IndiBrand749,Salbutamol,Antacid
+103,IndiBrand480,Aspirin,Bronchodilator
+104,IndiBrand895,Mefenamic acid,Bronchodilator
+105,IndiBrand723,Insulin,NSAID
+106,IndiBrand749,Salbutamol,Antacid
+107,IndiBrand480,Aspirin,Bronchodilator
+108,IndiBrand327,Azithromycin,Antipyretic
+109,IndiBrand58,Doxycycline,Vitamin Supplement
+110,IndiBrand480,Aspirin,Bronchodilator
+111,IndiBrand480,Aspirin,Bronchodilator
+112,IndiBrand58,Doxycycline,Vitamin Supplement
+113,IndiBrand496,Ibuprofen,Vitamin Supplement
+114,IndiBrand456,Ibuprofen,Bronchodilator
+115,IndiBrand496,Ibuprofen,Vitamin Supplement
+116,IndiBrand6,Omeprazole,Antibiotic
+117,IndiBrand496,Ibuprofen,Vitamin Supplement
+118,IndiBrand868,Amoxicillin,Antidiabetic
+119,IndiBrand496,Ibuprofen,Vitamin Supplement
+120,IndiBrand6,Omeprazole,Antibiotic
+121,IndiBrand480,Aspirin,Bronchodilator
+122,IndiBrand868,Amoxicillin,Antidiabetic
+123,IndiBrand456,Ibuprofen,Bronchodilator
+124,IndiBrand868,Amoxicillin,Antidiabetic
+125,IndiBrand6,Omeprazole,Antibiotic
+126,IndiBrand6,Omeprazole,Antibiotic
+127,IndiBrand749,Salbutamol,Antacid
+128,IndiBrand327,Azithromycin,Antipyretic
+129,IndiBrand895,Mefenamic acid,Bronchodilator
+130,IndiBrand895,Mefenamic acid,Bronchodilator
+131,IndiBrand496,Ibuprofen,Vitamin Supplement
+132,IndiBrand749,Salbutamol,Antacid
+133,IndiBrand496,Ibuprofen,Vitamin Supplement
+134,IndiBrand868,Amoxicillin,Antidiabetic
+135,IndiBrand749,Salbutamol,Antacid
+136,IndiBrand895,Mefenamic acid,Bronchodilator
+137,IndiBrand723,Insulin,NSAID
+138,IndiBrand6,Omeprazole,Antibiotic
+139,IndiBrand327,Azithromycin,Antipyretic
+140,IndiBrand895,Mefenamic acid,Bronchodilator
+141,IndiBrand6,Omeprazole,Antibiotic
+142,IndiBrand723,Insulin,NSAID
+143,IndiBrand868,Amoxicillin,Antidiabetic
+144,IndiBrand868,Amoxicillin,Antidiabetic
+145,IndiBrand480,Aspirin,Bronchodilator
+146,IndiBrand895,Mefenamic acid,Bronchodilator
+147,IndiBrand868,Amoxicillin,Antidiabetic
+148,IndiBrand749,Salbutamol,Antacid
+149,IndiBrand496,Ibuprofen,Vitamin Supplement
+150,IndiBrand6,Omeprazole,Antibiotic
+151,IndiBrand480,Aspirin,Bronchodilator
+152,IndiBrand58,Doxycycline,Vitamin Supplement
+153,IndiBrand895,Mefenamic acid,Bronchodilator
+154,IndiBrand456,Ibuprofen,Bronchodilator
+155,IndiBrand749,Salbutamol,Antacid
+156,IndiBrand723,Insulin,NSAID
+157,IndiBrand496,Ibuprofen,Vitamin Supplement
+158,IndiBrand496,Ibuprofen,Vitamin Supplement
+159,IndiBrand456,Ibuprofen,Bronchodilator
+160,IndiBrand496,Ibuprofen,Vitamin Supplement
+161,IndiBrand895,Mefenamic acid,Bronchodilator
+162,IndiBrand327,Azithromycin,Antipyretic
+163,IndiBrand895,Mefenamic acid,Bronchodilator
+164,IndiBrand868,Amoxicillin,Antidiabetic
+165,IndiBrand6,Omeprazole,Antibiotic
+166,IndiBrand723,Insulin,NSAID
+167,IndiBrand6,Omeprazole,Antibiotic
+168,IndiBrand58,Doxycycline,Vitamin Supplement
+169,IndiBrand6,Omeprazole,Antibiotic
+170,IndiBrand723,Insulin,NSAID
+171,IndiBrand868,Amoxicillin,Antidiabetic
+172,IndiBrand868,Amoxicillin,Antidiabetic
+173,IndiBrand456,Ibuprofen,Bronchodilator
+174,IndiBrand895,Mefenamic acid,Bronchodilator
+175,IndiBrand456,Ibuprofen,Bronchodilator
+176,IndiBrand456,Ibuprofen,Bronchodilator
+177,IndiBrand723,Insulin,NSAID
+178,IndiBrand327,Azithromycin,Antipyretic
+179,IndiBrand480,Aspirin,Bronchodilator
+180,IndiBrand58,Doxycycline,Vitamin Supplement
+181,IndiBrand327,Azithromycin,Antipyretic
+182,IndiBrand723,Insulin,NSAID
+183,IndiBrand496,Ibuprofen,Vitamin Supplement
+184,IndiBrand868,Amoxicillin,Antidiabetic
+185,IndiBrand895,Mefenamic acid,Bronchodilator
+186,IndiBrand327,Azithromycin,Antipyretic
+187,IndiBrand58,Doxycycline,Vitamin Supplement
+188,IndiBrand480,Aspirin,Bronchodilator
+189,IndiBrand749,Salbutamol,Antacid
+190,IndiBrand6,Omeprazole,Antibiotic
+191,IndiBrand456,Ibuprofen,Bronchodilator
+192,IndiBrand58,Doxycycline,Vitamin Supplement
+193,IndiBrand496,Ibuprofen,Vitamin Supplement
+194,IndiBrand58,Doxycycline,Vitamin Supplement
+195,IndiBrand58,Doxycycline,Vitamin Supplement
+196,IndiBrand723,Insulin,NSAID
+197,IndiBrand868,Amoxicillin,Antidiabetic
+198,IndiBrand480,Aspirin,Bronchodilator
+199,IndiBrand6,Omeprazole,Antibiotic
+200,IndiBrand749,Salbutamol,Antacid
+201,IndiBrand327,Azithromycin,Antipyretic
+202,IndiBrand496,Ibuprofen,Vitamin Supplement
+203,IndiBrand456,Ibuprofen,Bronchodilator
+204,IndiBrand456,Ibuprofen,Bronchodilator
+205,IndiBrand723,Insulin,NSAID
+206,IndiBrand868,Amoxicillin,Antidiabetic
+207,IndiBrand480,Aspirin,Bronchodilator
+208,IndiBrand327,Azithromycin,Antipyretic
+209,IndiBrand58,Doxycycline,Vitamin Supplement
+210,IndiBrand480,Aspirin,Bronchodilator
+211,IndiBrand456,Ibuprofen,Bronchodilator
+212,IndiBrand480,Aspirin,Bronchodilator
+213,IndiBrand6,Omeprazole,Antibiotic
+214,IndiBrand723,Insulin,NSAID
+215,IndiBrand327,Azithromycin,Antipyretic
+216,IndiBrand723,Insulin,NSAID
+217,IndiBrand496,Ibuprofen,Vitamin Supplement
+218,IndiBrand58,Doxycycline,Vitamin Supplement
+219,IndiBrand480,Aspirin,Bronchodilator
+220,IndiBrand723,Insulin,NSAID
+221,IndiBrand6,Omeprazole,Antibiotic
+222,IndiBrand723,Insulin,NSAID
+223,IndiBrand456,Ibuprofen,Bronchodilator
+224,IndiBrand496,Ibuprofen,Vitamin Supplement
+225,IndiBrand456,Ibuprofen,Bronchodilator
+226,IndiBrand58,Doxycycline,Vitamin Supplement
+227,IndiBrand327,Azithromycin,Antipyretic
+228,IndiBrand480,Aspirin,Bronchodilator
+229,IndiBrand480,Aspirin,Bronchodilator
+230,IndiBrand895,Mefenamic acid,Bronchodilator
+231,IndiBrand327,Azithromycin,Antipyretic
+232,IndiBrand480,Aspirin,Bronchodilator
+233,IndiBrand496,Ibuprofen,Vitamin Supplement
+234,IndiBrand327,Azithromycin,Antipyretic
+235,IndiBrand456,Ibuprofen,Bronchodilator
+236,IndiBrand58,Doxycycline,Vitamin Supplement
+237,IndiBrand749,Salbutamol,Antacid
+238,IndiBrand480,Aspirin,Bronchodilator
+239,IndiBrand456,Ibuprofen,Bronchodilator
+240,IndiBrand58,Doxycycline,Vitamin Supplement
+241,IndiBrand749,Salbutamol,Antacid
+242,IndiBrand480,Aspirin,Bronchodilator
+243,IndiBrand6,Omeprazole,Antibiotic
+244,IndiBrand58,Doxycycline,Vitamin Supplement
+245,IndiBrand868,Amoxicillin,Antidiabetic
+246,IndiBrand749,Salbutamol,Antacid
+247,IndiBrand723,Insulin,NSAID
+248,IndiBrand327,Azithromycin,Antipyretic
+249,IndiBrand749,Salbutamol,Antacid
+250,IndiBrand6,Omeprazole,Antibiotic
+251,IndiBrand480,Aspirin,Bronchodilator
+252,IndiBrand723,Insulin,NSAID
+253,IndiBrand496,Ibuprofen,Vitamin Supplement
+254,IndiBrand868,Amoxicillin,Antidiabetic
+255,IndiBrand749,Salbutamol,Antacid
+256,IndiBrand723,Insulin,NSAID
+257,IndiBrand868,Amoxicillin,Antidiabetic
+258,IndiBrand6,Omeprazole,Antibiotic
+259,IndiBrand723,Insulin,NSAID
+260,IndiBrand496,Ibuprofen,Vitamin Supplement
+261,IndiBrand868,Amoxicillin,Antidiabetic
+262,IndiBrand749,Salbutamol,Antacid
+263,IndiBrand723,Insulin,NSAID
+264,IndiBrand58,Doxycycline,Vitamin Supplement
+265,IndiBrand749,Salbutamol,Antacid
+266,IndiBrand456,Ibuprofen,Bronchodilator
+267,IndiBrand456,Ibuprofen,Bronchodilator
+268,IndiBrand868,Amoxicillin,Antidiabetic
+269,IndiBrand6,Omeprazole,Antibiotic
+270,IndiBrand895,Mefenamic acid,Bronchodilator
+271,IndiBrand456,Ibuprofen,Bronchodilator
+272,IndiBrand6,Omeprazole,Antibiotic
+273,IndiBrand868,Amoxicillin,Antidiabetic
+274,IndiBrand6,Omeprazole,Antibiotic
+275,IndiBrand895,Mefenamic acid,Bronchodilator
+276,IndiBrand327,Azithromycin,Antipyretic
+277,IndiBrand723,Insulin,NSAID
+278,IndiBrand868,Amoxicillin,Antidiabetic
+279,IndiBrand895,Mefenamic acid,Bronchodilator
+280,IndiBrand496,Ibuprofen,Vitamin Supplement
+281,IndiBrand496,Ibuprofen,Vitamin Supplement
+282,IndiBrand868,Amoxicillin,Antidiabetic
+283,IndiBrand327,Azithromycin,Antipyretic
+284,IndiBrand496,Ibuprofen,Vitamin Supplement
+285,IndiBrand895,Mefenamic acid,Bronchodilator
+286,IndiBrand6,Omeprazole,Antibiotic
+287,IndiBrand58,Doxycycline,Vitamin Supplement
+288,IndiBrand749,Salbutamol,Antacid
+289,IndiBrand496,Ibuprofen,Vitamin Supplement
+290,IndiBrand456,Ibuprofen,Bronchodilator
+291,IndiBrand868,Amoxicillin,Antidiabetic
+292,IndiBrand749,Salbutamol,Antacid
+293,IndiBrand496,Ibuprofen,Vitamin Supplement
+294,IndiBrand58,Doxycycline,Vitamin Supplement
+295,IndiBrand723,Insulin,NSAID
+296,IndiBrand480,Aspirin,Bronchodilator
+297,IndiBrand749,Salbutamol,Antacid
+298,IndiBrand895,Mefenamic acid,Bronchodilator
+299,IndiBrand868,Amoxicillin,Antidiabetic
+300,IndiBrand895,Mefenamic acid,Bronchodilator
+301,IndiBrand868,Amoxicillin,Antidiabetic
+302,IndiBrand749,Salbutamol,Antacid
+303,IndiBrand723,Insulin,NSAID
+304,IndiBrand868,Amoxicillin,Antidiabetic
+305,IndiBrand749,Salbutamol,Antacid
+306,IndiBrand327,Azithromycin,Antipyretic
+307,IndiBrand58,Doxycycline,Vitamin Supplement
+308,IndiBrand456,Ibuprofen,Bronchodilator
+309,IndiBrand327,Azithromycin,Antipyretic
+310,IndiBrand480,Aspirin,Bronchodilator
+311,IndiBrand327,Azithromycin,Antipyretic
+312,IndiBrand496,Ibuprofen,Vitamin Supplement
+313,IndiBrand6,Omeprazole,Antibiotic
+314,IndiBrand723,Insulin,NSAID
+315,IndiBrand58,Doxycycline,Vitamin Supplement
+316,IndiBrand496,Ibuprofen,Vitamin Supplement
+317,IndiBrand895,Mefenamic acid,Bronchodilator
+318,IndiBrand58,Doxycycline,Vitamin Supplement
+319,IndiBrand868,Amoxicillin,Antidiabetic
+320,IndiBrand6,Omeprazole,Antibiotic
+321,IndiBrand6,Omeprazole,Antibiotic
+322,IndiBrand6,Omeprazole,Antibiotic
+323,IndiBrand327,Azithromycin,Antipyretic
+324,IndiBrand6,Omeprazole,Antibiotic
+325,IndiBrand6,Omeprazole,Antibiotic
+326,IndiBrand480,Aspirin,Bronchodilator
+327,IndiBrand58,Doxycycline,Vitamin Supplement
+328,IndiBrand749,Salbutamol,Antacid
+329,IndiBrand6,Omeprazole,Antibiotic
+330,IndiBrand6,Omeprazole,Antibiotic
+331,IndiBrand327,Azithromycin,Antipyretic
+332,IndiBrand895,Mefenamic acid,Bronchodilator
+333,IndiBrand749,Salbutamol,Antacid
+334,IndiBrand456,Ibuprofen,Bronchodilator
+335,IndiBrand327,Azithromycin,Antipyretic
+336,IndiBrand327,Azithromycin,Antipyretic
+337,IndiBrand749,Salbutamol,Antacid
+338,IndiBrand58,Doxycycline,Vitamin Supplement
+339,IndiBrand58,Doxycycline,Vitamin Supplement
+340,IndiBrand749,Salbutamol,Antacid
+341,IndiBrand895,Mefenamic acid,Bronchodilator
+342,IndiBrand895,Mefenamic acid,Bronchodilator
+343,IndiBrand868,Amoxicillin,Antidiabetic
+344,IndiBrand723,Insulin,NSAID
+345,IndiBrand456,Ibuprofen,Bronchodilator
+346,IndiBrand496,Ibuprofen,Vitamin Supplement
+347,IndiBrand749,Salbutamol,Antacid
+348,IndiBrand868,Amoxicillin,Antidiabetic
+349,IndiBrand868,Amoxicillin,Antidiabetic
+350,IndiBrand327,Azithromycin,Antipyretic
+351,IndiBrand456,Ibuprofen,Bronchodilator
+352,IndiBrand868,Amoxicillin,Antidiabetic
+353,IndiBrand749,Salbutamol,Antacid
+354,IndiBrand480,Aspirin,Bronchodilator
+355,IndiBrand327,Azithromycin,Antipyretic
+356,IndiBrand480,Aspirin,Bronchodilator
+357,IndiBrand496,Ibuprofen,Vitamin Supplement
+358,IndiBrand868,Amoxicillin,Antidiabetic
+359,IndiBrand868,Amoxicillin,Antidiabetic
+360,IndiBrand58,Doxycycline,Vitamin Supplement
+361,IndiBrand327,Azithromycin,Antipyretic
+362,IndiBrand723,Insulin,NSAID
+363,IndiBrand6,Omeprazole,Antibiotic
+364,IndiBrand327,Azithromycin,Antipyretic
+365,IndiBrand749,Salbutamol,Antacid
+366,IndiBrand723,Insulin,NSAID
+367,IndiBrand496,Ibuprofen,Vitamin Supplement
+368,IndiBrand895,Mefenamic acid,Bronchodilator
+369,IndiBrand749,Salbutamol,Antacid
+370,IndiBrand749,Salbutamol,Antacid
+371,IndiBrand496,Ibuprofen,Vitamin Supplement
+372,IndiBrand6,Omeprazole,Antibiotic
+373,IndiBrand496,Ibuprofen,Vitamin Supplement
+374,IndiBrand456,Ibuprofen,Bronchodilator
+375,IndiBrand456,Ibuprofen,Bronchodilator
+376,IndiBrand496,Ibuprofen,Vitamin Supplement
+377,IndiBrand456,Ibuprofen,Bronchodilator
+378,IndiBrand496,Ibuprofen,Vitamin Supplement
+379,IndiBrand58,Doxycycline,Vitamin Supplement
+380,IndiBrand868,Amoxicillin,Antidiabetic
+381,IndiBrand895,Mefenamic acid,Bronchodilator
+382,IndiBrand6,Omeprazole,Antibiotic
+383,IndiBrand496,Ibuprofen,Vitamin Supplement
+384,IndiBrand868,Amoxicillin,Antidiabetic
+385,IndiBrand327,Azithromycin,Antipyretic
+386,IndiBrand723,Insulin,NSAID
+387,IndiBrand749,Salbutamol,Antacid
+388,IndiBrand496,Ibuprofen,Vitamin Supplement
+389,IndiBrand868,Amoxicillin,Antidiabetic
+390,IndiBrand749,Salbutamol,Antacid
+391,IndiBrand456,Ibuprofen,Bronchodilator
+392,IndiBrand58,Doxycycline,Vitamin Supplement
+393,IndiBrand868,Amoxicillin,Antidiabetic
+394,IndiBrand868,Amoxicillin,Antidiabetic
+395,IndiBrand496,Ibuprofen,Vitamin Supplement
+396,IndiBrand6,Omeprazole,Antibiotic
+397,IndiBrand6,Omeprazole,Antibiotic
+398,IndiBrand480,Aspirin,Bronchodilator
+399,IndiBrand723,Insulin,NSAID
+400,IndiBrand749,Salbutamol,Antacid
+401,IndiBrand456,Ibuprofen,Bronchodilator
+402,IndiBrand480,Aspirin,Bronchodilator
+403,IndiBrand6,Omeprazole,Antibiotic
+404,IndiBrand480,Aspirin,Bronchodilator
+405,IndiBrand895,Mefenamic acid,Bronchodilator
+406,IndiBrand868,Amoxicillin,Antidiabetic
+407,IndiBrand327,Azithromycin,Antipyretic
+408,IndiBrand749,Salbutamol,Antacid
+409,IndiBrand749,Salbutamol,Antacid
+410,IndiBrand749,Salbutamol,Antacid
+411,IndiBrand749,Salbutamol,Antacid
+412,IndiBrand327,Azithromycin,Antipyretic
+413,IndiBrand480,Aspirin,Bronchodilator
+414,IndiBrand480,Aspirin,Bronchodilator
+415,IndiBrand6,Omeprazole,Antibiotic
+416,IndiBrand58,Doxycycline,Vitamin Supplement
+417,IndiBrand58,Doxycycline,Vitamin Supplement
+418,IndiBrand895,Mefenamic acid,Bronchodilator
+419,IndiBrand327,Azithromycin,Antipyretic
+420,IndiBrand58,Doxycycline,Vitamin Supplement
+421,IndiBrand327,Azithromycin,Antipyretic
+422,IndiBrand58,Doxycycline,Vitamin Supplement
+423,IndiBrand6,Omeprazole,Antibiotic
+424,IndiBrand327,Azithromycin,Antipyretic
+425,IndiBrand895,Mefenamic acid,Bronchodilator
+426,IndiBrand480,Aspirin,Bronchodilator
+427,IndiBrand868,Amoxicillin,Antidiabetic
+428,IndiBrand327,Azithromycin,Antipyretic
+429,IndiBrand895,Mefenamic acid,Bronchodilator
+430,IndiBrand723,Insulin,NSAID
+431,IndiBrand895,Mefenamic acid,Bronchodilator
+432,IndiBrand895,Mefenamic acid,Bronchodilator
+433,IndiBrand58,Doxycycline,Vitamin Supplement
+434,IndiBrand327,Azithromycin,Antipyretic
+435,IndiBrand456,Ibuprofen,Bronchodilator
+436,IndiBrand58,Doxycycline,Vitamin Supplement
+437,IndiBrand456,Ibuprofen,Bronchodilator
+438,IndiBrand480,Aspirin,Bronchodilator
+439,IndiBrand868,Amoxicillin,Antidiabetic
+440,IndiBrand895,Mefenamic acid,Bronchodilator
+441,IndiBrand456,Ibuprofen,Bronchodilator
+442,IndiBrand496,Ibuprofen,Vitamin Supplement
+443,IndiBrand496,Ibuprofen,Vitamin Supplement
+444,IndiBrand723,Insulin,NSAID
+445,IndiBrand327,Azithromycin,Antipyretic
+446,IndiBrand868,Amoxicillin,Antidiabetic
+447,IndiBrand58,Doxycycline,Vitamin Supplement
+448,IndiBrand868,Amoxicillin,Antidiabetic
+449,IndiBrand749,Salbutamol,Antacid
+450,IndiBrand58,Doxycycline,Vitamin Supplement
+451,IndiBrand58,Doxycycline,Vitamin Supplement
+452,IndiBrand895,Mefenamic acid,Bronchodilator
+453,IndiBrand868,Amoxicillin,Antidiabetic
+454,IndiBrand496,Ibuprofen,Vitamin Supplement
+455,IndiBrand327,Azithromycin,Antipyretic
+456,IndiBrand496,Ibuprofen,Vitamin Supplement
+457,IndiBrand723,Insulin,NSAID
+458,IndiBrand6,Omeprazole,Antibiotic
+459,IndiBrand327,Azithromycin,Antipyretic
+460,IndiBrand749,Salbutamol,Antacid
+461,IndiBrand749,Salbutamol,Antacid
+462,IndiBrand456,Ibuprofen,Bronchodilator
+463,IndiBrand6,Omeprazole,Antibiotic
+464,IndiBrand6,Omeprazole,Antibiotic
+465,IndiBrand868,Amoxicillin,Antidiabetic
+466,IndiBrand496,Ibuprofen,Vitamin Supplement
+467,IndiBrand480,Aspirin,Bronchodilator
+468,IndiBrand456,Ibuprofen,Bronchodilator
+469,IndiBrand58,Doxycycline,Vitamin Supplement
+470,IndiBrand327,Azithromycin,Antipyretic
+471,IndiBrand496,Ibuprofen,Vitamin Supplement
+472,IndiBrand6,Omeprazole,Antibiotic
+473,IndiBrand327,Azithromycin,Antipyretic
+474,IndiBrand895,Mefenamic acid,Bronchodilator
+475,IndiBrand723,Insulin,NSAID
+476,IndiBrand496,Ibuprofen,Vitamin Supplement
+477,IndiBrand723,Insulin,NSAID
+478,IndiBrand868,Amoxicillin,Antidiabetic
+479,IndiBrand456,Ibuprofen,Bronchodilator
+480,IndiBrand895,Mefenamic acid,Bronchodilator
+481,IndiBrand327,Azithromycin,Antipyretic
+482,IndiBrand456,Ibuprofen,Bronchodilator
+483,IndiBrand749,Salbutamol,Antacid
+484,IndiBrand496,Ibuprofen,Vitamin Supplement
+485,IndiBrand895,Mefenamic acid,Bronchodilator
+486,IndiBrand58,Doxycycline,Vitamin Supplement
+487,IndiBrand496,Ibuprofen,Vitamin Supplement
+488,IndiBrand723,Insulin,NSAID
+489,IndiBrand895,Mefenamic acid,Bronchodilator
+490,IndiBrand895,Mefenamic acid,Bronchodilator
+491,IndiBrand480,Aspirin,Bronchodilator
+492,IndiBrand868,Amoxicillin,Antidiabetic
+493,IndiBrand895,Mefenamic acid,Bronchodilator
+494,IndiBrand749,Salbutamol,Antacid
+495,IndiBrand480,Aspirin,Bronchodilator
+496,IndiBrand327,Azithromycin,Antipyretic
+497,IndiBrand496,Ibuprofen,Vitamin Supplement
+498,IndiBrand327,Azithromycin,Antipyretic
+499,IndiBrand456,Ibuprofen,Bronchodilator
+500,IndiBrand480,Aspirin,Bronchodilator
+501,IndiBrand749,Salbutamol,Antacid
+502,IndiBrand327,Azithromycin,Antipyretic
+503,IndiBrand327,Azithromycin,Antipyretic
+504,IndiBrand723,Insulin,NSAID
+505,IndiBrand868,Amoxicillin,Antidiabetic
+506,IndiBrand723,Insulin,NSAID
+507,IndiBrand6,Omeprazole,Antibiotic
+508,IndiBrand723,Insulin,NSAID
+509,IndiBrand723,Insulin,NSAID
+510,IndiBrand723,Insulin,NSAID
+511,IndiBrand480,Aspirin,Bronchodilator
+512,IndiBrand895,Mefenamic acid,Bronchodilator
+513,IndiBrand58,Doxycycline,Vitamin Supplement
+514,IndiBrand58,Doxycycline,Vitamin Supplement
+515,IndiBrand868,Amoxicillin,Antidiabetic
+516,IndiBrand496,Ibuprofen,Vitamin Supplement
+517,IndiBrand58,Doxycycline,Vitamin Supplement
+518,IndiBrand723,Insulin,NSAID
+519,IndiBrand327,Azithromycin,Antipyretic
+520,IndiBrand456,Ibuprofen,Bronchodilator
+521,IndiBrand895,Mefenamic acid,Bronchodilator
+522,IndiBrand58,Doxycycline,Vitamin Supplement
+523,IndiBrand6,Omeprazole,Antibiotic
+524,IndiBrand480,Aspirin,Bronchodilator
+525,IndiBrand496,Ibuprofen,Vitamin Supplement
+526,IndiBrand58,Doxycycline,Vitamin Supplement
+527,IndiBrand868,Amoxicillin,Antidiabetic
+528,IndiBrand58,Doxycycline,Vitamin Supplement
+529,IndiBrand749,Salbutamol,Antacid
+530,IndiBrand496,Ibuprofen,Vitamin Supplement
+531,IndiBrand868,Amoxicillin,Antidiabetic
+532,IndiBrand58,Doxycycline,Vitamin Supplement
+533,IndiBrand895,Mefenamic acid,Bronchodilator
+534,IndiBrand749,Salbutamol,Antacid
+535,IndiBrand6,Omeprazole,Antibiotic
+536,IndiBrand480,Aspirin,Bronchodilator
+537,IndiBrand749,Salbutamol,Antacid
+538,IndiBrand456,Ibuprofen,Bronchodilator
+539,IndiBrand895,Mefenamic acid,Bronchodilator
+540,IndiBrand456,Ibuprofen,Bronchodilator
+541,IndiBrand496,Ibuprofen,Vitamin Supplement
+542,IndiBrand327,Azithromycin,Antipyretic
+543,IndiBrand456,Ibuprofen,Bronchodilator
+544,IndiBrand327,Azithromycin,Antipyretic
+545,IndiBrand723,Insulin,NSAID
+546,IndiBrand496,Ibuprofen,Vitamin Supplement
+547,IndiBrand327,Azithromycin,Antipyretic
+548,IndiBrand749,Salbutamol,Antacid
+549,IndiBrand496,Ibuprofen,Vitamin Supplement
+550,IndiBrand895,Mefenamic acid,Bronchodilator
+551,IndiBrand480,Aspirin,Bronchodilator
+552,IndiBrand327,Azithromycin,Antipyretic
+553,IndiBrand496,Ibuprofen,Vitamin Supplement
+554,IndiBrand6,Omeprazole,Antibiotic
+555,IndiBrand749,Salbutamol,Antacid
+556,IndiBrand480,Aspirin,Bronchodilator
+557,IndiBrand868,Amoxicillin,Antidiabetic
+558,IndiBrand480,Aspirin,Bronchodilator
+559,IndiBrand496,Ibuprofen,Vitamin Supplement
+560,IndiBrand6,Omeprazole,Antibiotic
+561,IndiBrand456,Ibuprofen,Bronchodilator
+562,IndiBrand327,Azithromycin,Antipyretic
+563,IndiBrand723,Insulin,NSAID
+564,IndiBrand480,Aspirin,Bronchodilator
+565,IndiBrand723,Insulin,NSAID
+566,IndiBrand868,Amoxicillin,Antidiabetic
+567,IndiBrand6,Omeprazole,Antibiotic
+568,IndiBrand749,Salbutamol,Antacid
+569,IndiBrand456,Ibuprofen,Bronchodilator
+570,IndiBrand58,Doxycycline,Vitamin Supplement
+571,IndiBrand749,Salbutamol,Antacid
+572,IndiBrand895,Mefenamic acid,Bronchodilator
+573,IndiBrand895,Mefenamic acid,Bronchodilator
+574,IndiBrand58,Doxycycline,Vitamin Supplement
+575,IndiBrand868,Amoxicillin,Antidiabetic
+576,IndiBrand6,Omeprazole,Antibiotic
+577,IndiBrand496,Ibuprofen,Vitamin Supplement
+578,IndiBrand6,Omeprazole,Antibiotic
+579,IndiBrand58,Doxycycline,Vitamin Supplement
+580,IndiBrand868,Amoxicillin,Antidiabetic
+581,IndiBrand6,Omeprazole,Antibiotic
+582,IndiBrand868,Amoxicillin,Antidiabetic
+583,IndiBrand895,Mefenamic acid,Bronchodilator
+584,IndiBrand723,Insulin,NSAID
+585,IndiBrand456,Ibuprofen,Bronchodilator
+586,IndiBrand58,Doxycycline,Vitamin Supplement
+587,IndiBrand327,Azithromycin,Antipyretic
+588,IndiBrand327,Azithromycin,Antipyretic
+589,IndiBrand456,Ibuprofen,Bronchodilator
+590,IndiBrand496,Ibuprofen,Vitamin Supplement
+591,IndiBrand480,Aspirin,Bronchodilator
+592,IndiBrand868,Amoxicillin,Antidiabetic
+593,IndiBrand723,Insulin,NSAID
+594,IndiBrand58,Doxycycline,Vitamin Supplement
+595,IndiBrand456,Ibuprofen,Bronchodilator
+596,IndiBrand749,Salbutamol,Antacid
+597,IndiBrand58,Doxycycline,Vitamin Supplement
+598,IndiBrand723,Insulin,NSAID
+599,IndiBrand456,Ibuprofen,Bronchodilator
+600,IndiBrand868,Amoxicillin,Antidiabetic
+601,IndiBrand496,Ibuprofen,Vitamin Supplement
+602,IndiBrand749,Salbutamol,Antacid
+603,IndiBrand868,Amoxicillin,Antidiabetic
+604,IndiBrand723,Insulin,NSAID
+605,IndiBrand496,Ibuprofen,Vitamin Supplement
+606,IndiBrand496,Ibuprofen,Vitamin Supplement
+607,IndiBrand456,Ibuprofen,Bronchodilator
+608,IndiBrand749,Salbutamol,Antacid
+609,IndiBrand480,Aspirin,Bronchodilator
+610,IndiBrand723,Insulin,NSAID
+611,IndiBrand749,Salbutamol,Antacid
+612,IndiBrand868,Amoxicillin,Antidiabetic
+613,IndiBrand6,Omeprazole,Antibiotic
+614,IndiBrand327,Azithromycin,Antipyretic
+615,IndiBrand895,Mefenamic acid,Bronchodilator
+616,IndiBrand456,Ibuprofen,Bronchodilator
+617,IndiBrand6,Omeprazole,Antibiotic
+618,IndiBrand749,Salbutamol,Antacid
+619,IndiBrand496,Ibuprofen,Vitamin Supplement
+620,IndiBrand868,Amoxicillin,Antidiabetic
+621,IndiBrand327,Azithromycin,Antipyretic
+622,IndiBrand749,Salbutamol,Antacid
+623,IndiBrand480,Aspirin,Bronchodilator
+624,IndiBrand749,Salbutamol,Antacid
+625,IndiBrand480,Aspirin,Bronchodilator
+626,IndiBrand868,Amoxicillin,Antidiabetic
+627,IndiBrand723,Insulin,NSAID
+628,IndiBrand723,Insulin,NSAID
+629,IndiBrand480,Aspirin,Bronchodilator
+630,IndiBrand480,Aspirin,Bronchodilator
+631,IndiBrand723,Insulin,NSAID
+632,IndiBrand480,Aspirin,Bronchodilator
+633,IndiBrand6,Omeprazole,Antibiotic
+634,IndiBrand723,Insulin,NSAID
+635,IndiBrand895,Mefenamic acid,Bronchodilator
+636,IndiBrand456,Ibuprofen,Bronchodilator
+637,IndiBrand723,Insulin,NSAID
+638,IndiBrand58,Doxycycline,Vitamin Supplement
+639,IndiBrand496,Ibuprofen,Vitamin Supplement
+640,IndiBrand749,Salbutamol,Antacid
+641,IndiBrand723,Insulin,NSAID
+642,IndiBrand496,Ibuprofen,Vitamin Supplement
+643,IndiBrand895,Mefenamic acid,Bronchodilator
+644,IndiBrand496,Ibuprofen,Vitamin Supplement
+645,IndiBrand723,Insulin,NSAID
+646,IndiBrand868,Amoxicillin,Antidiabetic
+647,IndiBrand895,Mefenamic acid,Bronchodilator
+648,IndiBrand6,Omeprazole,Antibiotic
+649,IndiBrand58,Doxycycline,Vitamin Supplement
+650,IndiBrand58,Doxycycline,Vitamin Supplement
+651,IndiBrand868,Amoxicillin,Antidiabetic
+652,IndiBrand496,Ibuprofen,Vitamin Supplement
+653,IndiBrand895,Mefenamic acid,Bronchodilator
+654,IndiBrand58,Doxycycline,Vitamin Supplement
+655,IndiBrand456,Ibuprofen,Bronchodilator
+656,IndiBrand456,Ibuprofen,Bronchodilator
+657,IndiBrand6,Omeprazole,Antibiotic
+658,IndiBrand895,Mefenamic acid,Bronchodilator
+659,IndiBrand496,Ibuprofen,Vitamin Supplement
+660,IndiBrand480,Aspirin,Bronchodilator
+661,IndiBrand456,Ibuprofen,Bronchodilator
+662,IndiBrand6,Omeprazole,Antibiotic
+663,IndiBrand723,Insulin,NSAID
+664,IndiBrand58,Doxycycline,Vitamin Supplement
+665,IndiBrand723,Insulin,NSAID
+666,IndiBrand58,Doxycycline,Vitamin Supplement
+667,IndiBrand480,Aspirin,Bronchodilator
+668,IndiBrand895,Mefenamic acid,Bronchodilator
+669,IndiBrand456,Ibuprofen,Bronchodilator
+670,IndiBrand496,Ibuprofen,Vitamin Supplement
+671,IndiBrand58,Doxycycline,Vitamin Supplement
+672,IndiBrand456,Ibuprofen,Bronchodilator
+673,IndiBrand456,Ibuprofen,Bronchodilator
+674,IndiBrand480,Aspirin,Bronchodilator
+675,IndiBrand58,Doxycycline,Vitamin Supplement
+676,IndiBrand456,Ibuprofen,Bronchodilator
+677,IndiBrand327,Azithromycin,Antipyretic
+678,IndiBrand496,Ibuprofen,Vitamin Supplement
+679,IndiBrand480,Aspirin,Bronchodilator
+680,IndiBrand868,Amoxicillin,Antidiabetic
+681,IndiBrand723,Insulin,NSAID
+682,IndiBrand327,Azithromycin,Antipyretic
+683,IndiBrand868,Amoxicillin,Antidiabetic
+684,IndiBrand456,Ibuprofen,Bronchodilator
+685,IndiBrand480,Aspirin,Bronchodilator
+686,IndiBrand58,Doxycycline,Vitamin Supplement
+687,IndiBrand749,Salbutamol,Antacid
+688,IndiBrand868,Amoxicillin,Antidiabetic
+689,IndiBrand723,Insulin,NSAID
+690,IndiBrand895,Mefenamic acid,Bronchodilator
+691,IndiBrand480,Aspirin,Bronchodilator
+692,IndiBrand456,Ibuprofen,Bronchodilator
+693,IndiBrand496,Ibuprofen,Vitamin Supplement
+694,IndiBrand868,Amoxicillin,Antidiabetic
+695,IndiBrand749,Salbutamol,Antacid
+696,IndiBrand868,Amoxicillin,Antidiabetic
+697,IndiBrand480,Aspirin,Bronchodilator
+698,IndiBrand480,Aspirin,Bronchodilator
+699,IndiBrand480,Aspirin,Bronchodilator
+700,IndiBrand480,Aspirin,Bronchodilator
+701,IndiBrand480,Aspirin,Bronchodilator
+702,IndiBrand6,Omeprazole,Antibiotic
+703,IndiBrand456,Ibuprofen,Bronchodilator
+704,IndiBrand6,Omeprazole,Antibiotic
+705,IndiBrand496,Ibuprofen,Vitamin Supplement
+706,IndiBrand723,Insulin,NSAID
+707,IndiBrand327,Azithromycin,Antipyretic
+708,IndiBrand456,Ibuprofen,Bronchodilator
+709,IndiBrand895,Mefenamic acid,Bronchodilator
+710,IndiBrand480,Aspirin,Bronchodilator
+711,IndiBrand327,Azithromycin,Antipyretic
+712,IndiBrand496,Ibuprofen,Vitamin Supplement
+713,IndiBrand749,Salbutamol,Antacid
+714,IndiBrand723,Insulin,NSAID
+715,IndiBrand6,Omeprazole,Antibiotic
+716,IndiBrand895,Mefenamic acid,Bronchodilator
+717,IndiBrand895,Mefenamic acid,Bronchodilator
+718,IndiBrand868,Amoxicillin,Antidiabetic
+719,IndiBrand723,Insulin,NSAID
+720,IndiBrand456,Ibuprofen,Bronchodilator
+721,IndiBrand58,Doxycycline,Vitamin Supplement
+722,IndiBrand58,Doxycycline,Vitamin Supplement
+723,IndiBrand6,Omeprazole,Antibiotic
+724,IndiBrand480,Aspirin,Bronchodilator
+725,IndiBrand58,Doxycycline,Vitamin Supplement
+726,IndiBrand723,Insulin,NSAID
+727,IndiBrand58,Doxycycline,Vitamin Supplement
+728,IndiBrand723,Insulin,NSAID
+729,IndiBrand6,Omeprazole,Antibiotic
+730,IndiBrand58,Doxycycline,Vitamin Supplement
+731,IndiBrand895,Mefenamic acid,Bronchodilator
+732,IndiBrand723,Insulin,NSAID
+733,IndiBrand496,Ibuprofen,Vitamin Supplement
+734,IndiBrand868,Amoxicillin,Antidiabetic
+735,IndiBrand480,Aspirin,Bronchodilator
+736,IndiBrand895,Mefenamic acid,Bronchodilator
+737,IndiBrand868,Amoxicillin,Antidiabetic
+738,IndiBrand868,Amoxicillin,Antidiabetic
+739,IndiBrand327,Azithromycin,Antipyretic
+740,IndiBrand895,Mefenamic acid,Bronchodilator
+741,IndiBrand6,Omeprazole,Antibiotic
+742,IndiBrand895,Mefenamic acid,Bronchodilator
+743,IndiBrand749,Salbutamol,Antacid
+744,IndiBrand327,Azithromycin,Antipyretic
+745,IndiBrand723,Insulin,NSAID
+746,IndiBrand749,Salbutamol,Antacid
+747,IndiBrand456,Ibuprofen,Bronchodilator
+748,IndiBrand868,Amoxicillin,Antidiabetic
+749,IndiBrand456,Ibuprofen,Bronchodilator
+750,IndiBrand480,Aspirin,Bronchodilator
+751,IndiBrand749,Salbutamol,Antacid
+752,IndiBrand456,Ibuprofen,Bronchodilator
+753,IndiBrand496,Ibuprofen,Vitamin Supplement
+754,IndiBrand327,Azithromycin,Antipyretic
+755,IndiBrand456,Ibuprofen,Bronchodilator
+756,IndiBrand749,Salbutamol,Antacid
+757,IndiBrand6,Omeprazole,Antibiotic
+758,IndiBrand456,Ibuprofen,Bronchodilator
+759,IndiBrand749,Salbutamol,Antacid
+760,IndiBrand868,Amoxicillin,Antidiabetic
+761,IndiBrand327,Azithromycin,Antipyretic
+762,IndiBrand895,Mefenamic acid,Bronchodilator
+763,IndiBrand496,Ibuprofen,Vitamin Supplement
+764,IndiBrand456,Ibuprofen,Bronchodilator
+765,IndiBrand496,Ibuprofen,Vitamin Supplement
+766,IndiBrand58,Doxycycline,Vitamin Supplement
+767,IndiBrand456,Ibuprofen,Bronchodilator
+768,IndiBrand456,Ibuprofen,Bronchodilator
+769,IndiBrand456,Ibuprofen,Bronchodilator
+770,IndiBrand749,Salbutamol,Antacid
+771,IndiBrand749,Salbutamol,Antacid
+772,IndiBrand749,Salbutamol,Antacid
+773,IndiBrand58,Doxycycline,Vitamin Supplement
+774,IndiBrand58,Doxycycline,Vitamin Supplement
+775,IndiBrand723,Insulin,NSAID
+776,IndiBrand496,Ibuprofen,Vitamin Supplement
+777,IndiBrand327,Azithromycin,Antipyretic
+778,IndiBrand496,Ibuprofen,Vitamin Supplement
+779,IndiBrand496,Ibuprofen,Vitamin Supplement
+780,IndiBrand480,Aspirin,Bronchodilator
+781,IndiBrand6,Omeprazole,Antibiotic
+782,IndiBrand749,Salbutamol,Antacid
+783,IndiBrand6,Omeprazole,Antibiotic
+784,IndiBrand6,Omeprazole,Antibiotic
+785,IndiBrand6,Omeprazole,Antibiotic
+786,IndiBrand6,Omeprazole,Antibiotic
+787,IndiBrand895,Mefenamic acid,Bronchodilator
+788,IndiBrand723,Insulin,NSAID
+789,IndiBrand6,Omeprazole,Antibiotic
+790,IndiBrand895,Mefenamic acid,Bronchodilator
+791,IndiBrand868,Amoxicillin,Antidiabetic
+792,IndiBrand327,Azithromycin,Antipyretic
+793,IndiBrand496,Ibuprofen,Vitamin Supplement
+794,IndiBrand327,Azithromycin,Antipyretic
+795,IndiBrand749,Salbutamol,Antacid
+796,IndiBrand496,Ibuprofen,Vitamin Supplement
+797,IndiBrand456,Ibuprofen,Bronchodilator
+798,IndiBrand895,Mefenamic acid,Bronchodilator
+799,IndiBrand456,Ibuprofen,Bronchodilator
+800,IndiBrand496,Ibuprofen,Vitamin Supplement
+801,IndiBrand723,Insulin,NSAID
+802,IndiBrand749,Salbutamol,Antacid
+803,IndiBrand456,Ibuprofen,Bronchodilator
+804,IndiBrand58,Doxycycline,Vitamin Supplement
+805,IndiBrand327,Azithromycin,Antipyretic
+806,IndiBrand868,Amoxicillin,Antidiabetic
+807,IndiBrand456,Ibuprofen,Bronchodilator
+808,IndiBrand496,Ibuprofen,Vitamin Supplement
+809,IndiBrand6,Omeprazole,Antibiotic
+810,IndiBrand496,Ibuprofen,Vitamin Supplement
+811,IndiBrand749,Salbutamol,Antacid
+812,IndiBrand895,Mefenamic acid,Bronchodilator
+813,IndiBrand456,Ibuprofen,Bronchodilator
+814,IndiBrand723,Insulin,NSAID
+815,IndiBrand496,Ibuprofen,Vitamin Supplement
+816,IndiBrand456,Ibuprofen,Bronchodilator
+817,IndiBrand58,Doxycycline,Vitamin Supplement
+818,IndiBrand496,Ibuprofen,Vitamin Supplement
+819,IndiBrand895,Mefenamic acid,Bronchodilator
+820,IndiBrand723,Insulin,NSAID
+821,IndiBrand456,Ibuprofen,Bronchodilator
+822,IndiBrand868,Amoxicillin,Antidiabetic
+823,IndiBrand496,Ibuprofen,Vitamin Supplement
+824,IndiBrand480,Aspirin,Bronchodilator
+825,IndiBrand723,Insulin,NSAID
+826,IndiBrand868,Amoxicillin,Antidiabetic
+827,IndiBrand6,Omeprazole,Antibiotic
+828,IndiBrand480,Aspirin,Bronchodilator
+829,IndiBrand327,Azithromycin,Antipyretic
+830,IndiBrand749,Salbutamol,Antacid
+831,IndiBrand496,Ibuprofen,Vitamin Supplement
+832,IndiBrand456,Ibuprofen,Bronchodilator
+833,IndiBrand327,Azithromycin,Antipyretic
+834,IndiBrand723,Insulin,NSAID
+835,IndiBrand868,Amoxicillin,Antidiabetic
+836,IndiBrand327,Azithromycin,Antipyretic
+837,IndiBrand723,Insulin,NSAID
+838,IndiBrand895,Mefenamic acid,Bronchodilator
+839,IndiBrand58,Doxycycline,Vitamin Supplement
+840,IndiBrand895,Mefenamic acid,Bronchodilator
+841,IndiBrand456,Ibuprofen,Bronchodilator
+842,IndiBrand58,Doxycycline,Vitamin Supplement
+843,IndiBrand749,Salbutamol,Antacid
+844,IndiBrand496,Ibuprofen,Vitamin Supplement
+845,IndiBrand895,Mefenamic acid,Bronchodilator
+846,IndiBrand723,Insulin,NSAID
+847,IndiBrand456,Ibuprofen,Bronchodilator
+848,IndiBrand868,Amoxicillin,Antidiabetic
+849,IndiBrand868,Amoxicillin,Antidiabetic
+850,IndiBrand868,Amoxicillin,Antidiabetic
+851,IndiBrand868,Amoxicillin,Antidiabetic
+852,IndiBrand895,Mefenamic acid,Bronchodilator
+853,IndiBrand6,Omeprazole,Antibiotic
+854,IndiBrand723,Insulin,NSAID
+855,IndiBrand895,Mefenamic acid,Bronchodilator
+856,IndiBrand895,Mefenamic acid,Bronchodilator
+857,IndiBrand480,Aspirin,Bronchodilator
+858,IndiBrand58,Doxycycline,Vitamin Supplement
+859,IndiBrand58,Doxycycline,Vitamin Supplement
+860,IndiBrand58,Doxycycline,Vitamin Supplement
+861,IndiBrand480,Aspirin,Bronchodilator
+862,IndiBrand723,Insulin,NSAID
+863,IndiBrand327,Azithromycin,Antipyretic
+864,IndiBrand868,Amoxicillin,Antidiabetic
+865,IndiBrand327,Azithromycin,Antipyretic
+866,IndiBrand895,Mefenamic acid,Bronchodilator
+867,IndiBrand723,Insulin,NSAID
+868,IndiBrand723,Insulin,NSAID
+869,IndiBrand6,Omeprazole,Antibiotic
+870,IndiBrand723,Insulin,NSAID
+871,IndiBrand6,Omeprazole,Antibiotic
+872,IndiBrand749,Salbutamol,Antacid
+873,IndiBrand456,Ibuprofen,Bronchodilator
+874,IndiBrand895,Mefenamic acid,Bronchodilator
+875,IndiBrand868,Amoxicillin,Antidiabetic
+876,IndiBrand895,Mefenamic acid,Bronchodilator
+877,IndiBrand895,Mefenamic acid,Bronchodilator
+878,IndiBrand749,Salbutamol,Antacid
+879,IndiBrand496,Ibuprofen,Vitamin Supplement
+880,IndiBrand723,Insulin,NSAID
+881,IndiBrand456,Ibuprofen,Bronchodilator
+882,IndiBrand58,Doxycycline,Vitamin Supplement
+883,IndiBrand723,Insulin,NSAID
+884,IndiBrand480,Aspirin,Bronchodilator
+885,IndiBrand480,Aspirin,Bronchodilator
+886,IndiBrand6,Omeprazole,Antibiotic
+887,IndiBrand496,Ibuprofen,Vitamin Supplement
+888,IndiBrand749,Salbutamol,Antacid
+889,IndiBrand749,Salbutamol,Antacid
+890,IndiBrand480,Aspirin,Bronchodilator
+891,IndiBrand327,Azithromycin,Antipyretic
+892,IndiBrand496,Ibuprofen,Vitamin Supplement
+893,IndiBrand58,Doxycycline,Vitamin Supplement
+894,IndiBrand749,Salbutamol,Antacid
+895,IndiBrand327,Azithromycin,Antipyretic
+896,IndiBrand456,Ibuprofen,Bronchodilator
+897,IndiBrand749,Salbutamol,Antacid
+898,IndiBrand480,Aspirin,Bronchodilator
+899,IndiBrand58,Doxycycline,Vitamin Supplement
+900,IndiBrand723,Insulin,NSAID
+901,IndiBrand868,Amoxicillin,Antidiabetic
+902,IndiBrand456,Ibuprofen,Bronchodilator
+903,IndiBrand456,Ibuprofen,Bronchodilator
+904,IndiBrand58,Doxycycline,Vitamin Supplement
+905,IndiBrand895,Mefenamic acid,Bronchodilator
+906,IndiBrand868,Amoxicillin,Antidiabetic
+907,IndiBrand868,Amoxicillin,Antidiabetic
+908,IndiBrand496,Ibuprofen,Vitamin Supplement
+909,IndiBrand723,Insulin,NSAID
+910,IndiBrand6,Omeprazole,Antibiotic
+911,IndiBrand456,Ibuprofen,Bronchodilator
+912,IndiBrand480,Aspirin,Bronchodilator
+913,IndiBrand868,Amoxicillin,Antidiabetic
+914,IndiBrand6,Omeprazole,Antibiotic
+915,IndiBrand749,Salbutamol,Antacid
+916,IndiBrand456,Ibuprofen,Bronchodilator
+917,IndiBrand749,Salbutamol,Antacid
+918,IndiBrand868,Amoxicillin,Antidiabetic
+919,IndiBrand456,Ibuprofen,Bronchodilator
+920,IndiBrand749,Salbutamol,Antacid
+921,IndiBrand895,Mefenamic acid,Bronchodilator
+922,IndiBrand895,Mefenamic acid,Bronchodilator
+923,IndiBrand868,Amoxicillin,Antidiabetic
+924,IndiBrand480,Aspirin,Bronchodilator
+925,IndiBrand749,Salbutamol,Antacid
+926,IndiBrand480,Aspirin,Bronchodilator
+927,IndiBrand327,Azithromycin,Antipyretic
+928,IndiBrand327,Azithromycin,Antipyretic
+929,IndiBrand327,Azithromycin,Antipyretic
+930,IndiBrand749,Salbutamol,Antacid
+931,IndiBrand480,Aspirin,Bronchodilator
+932,IndiBrand480,Aspirin,Bronchodilator
+933,IndiBrand496,Ibuprofen,Vitamin Supplement
+934,IndiBrand868,Amoxicillin,Antidiabetic
+935,IndiBrand895,Mefenamic acid,Bronchodilator
+936,IndiBrand456,Ibuprofen,Bronchodilator
+937,IndiBrand749,Salbutamol,Antacid
+938,IndiBrand6,Omeprazole,Antibiotic
+939,IndiBrand868,Amoxicillin,Antidiabetic
+940,IndiBrand480,Aspirin,Bronchodilator
+941,IndiBrand496,Ibuprofen,Vitamin Supplement
+942,IndiBrand868,Amoxicillin,Antidiabetic
+943,IndiBrand723,Insulin,NSAID
+944,IndiBrand496,Ibuprofen,Vitamin Supplement
+945,IndiBrand496,Ibuprofen,Vitamin Supplement
+946,IndiBrand327,Azithromycin,Antipyretic
+947,IndiBrand749,Salbutamol,Antacid
+948,IndiBrand480,Aspirin,Bronchodilator
+949,IndiBrand895,Mefenamic acid,Bronchodilator
+950,IndiBrand456,Ibuprofen,Bronchodilator
+951,IndiBrand480,Aspirin,Bronchodilator
+952,IndiBrand456,Ibuprofen,Bronchodilator
+953,IndiBrand456,Ibuprofen,Bronchodilator
+954,IndiBrand327,Azithromycin,Antipyretic
+955,IndiBrand895,Mefenamic acid,Bronchodilator
+956,IndiBrand327,Azithromycin,Antipyretic
+957,IndiBrand496,Ibuprofen,Vitamin Supplement
+958,IndiBrand456,Ibuprofen,Bronchodilator
+959,IndiBrand456,Ibuprofen,Bronchodilator
+960,IndiBrand868,Amoxicillin,Antidiabetic
+961,IndiBrand868,Amoxicillin,Antidiabetic
+962,IndiBrand327,Azithromycin,Antipyretic
+963,IndiBrand868,Amoxicillin,Antidiabetic
+964,IndiBrand749,Salbutamol,Antacid
+965,IndiBrand6,Omeprazole,Antibiotic
+966,IndiBrand868,Amoxicillin,Antidiabetic
+967,IndiBrand496,Ibuprofen,Vitamin Supplement
+968,IndiBrand895,Mefenamic acid,Bronchodilator
+969,IndiBrand496,Ibuprofen,Vitamin Supplement
+970,IndiBrand749,Salbutamol,Antacid
+971,IndiBrand496,Ibuprofen,Vitamin Supplement
+972,IndiBrand895,Mefenamic acid,Bronchodilator
+973,IndiBrand327,Azithromycin,Antipyretic
+974,IndiBrand496,Ibuprofen,Vitamin Supplement
+975,IndiBrand895,Mefenamic acid,Bronchodilator
+976,IndiBrand895,Mefenamic acid,Bronchodilator
+977,IndiBrand327,Azithromycin,Antipyretic
+978,IndiBrand749,Salbutamol,Antacid
+979,IndiBrand749,Salbutamol,Antacid
+980,IndiBrand327,Azithromycin,Antipyretic
+981,IndiBrand496,Ibuprofen,Vitamin Supplement
+982,IndiBrand327,Azithromycin,Antipyretic
+983,IndiBrand749,Salbutamol,Antacid
+984,IndiBrand868,Amoxicillin,Antidiabetic
+985,IndiBrand895,Mefenamic acid,Bronchodilator
+986,IndiBrand480,Aspirin,Bronchodilator
+987,IndiBrand749,Salbutamol,Antacid
+988,IndiBrand895,Mefenamic acid,Bronchodilator
+989,IndiBrand723,Insulin,NSAID
+990,IndiBrand480,Aspirin,Bronchodilator
+991,IndiBrand723,Insulin,NSAID
+992,IndiBrand868,Amoxicillin,Antidiabetic
+993,IndiBrand723,Insulin,NSAID
+994,IndiBrand496,Ibuprofen,Vitamin Supplement
+995,IndiBrand6,Omeprazole,Antibiotic
+996,IndiBrand480,Aspirin,Bronchodilator
+997,IndiBrand480,Aspirin,Bronchodilator
+998,IndiBrand327,Azithromycin,Antipyretic
+999,IndiBrand749,Salbutamol,Antacid
+1000,IndiBrand723,Insulin,NSAID

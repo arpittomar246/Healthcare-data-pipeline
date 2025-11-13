@@ -1,0 +1,29 @@
+{
+  "drug": {
+    "rows": 1000,
+    "nulls": {
+      "drug_id": 0,
+      "drug_brand_name": 0,
+      "drug": 0,
+      "drug_type": 0
+    }
+  },
+  "prescriber": {
+    "rows": 1200,
+    "nulls": {
+      "presc_id": 0,
+      "presc_fullname": 0,
+      "presc_specialty": 0,
+      "presc_state_code": 0
+    }
+  },
+  "prescriber_drug": {
+    "rows": 6000,
+    "nulls": {
+      "presc_id": 0,
+      "drug_brand_name": 0,
+      "total_claims": 0,
+      "total_drug_cost": 0
+    }
+  }
+}

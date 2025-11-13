@@ -1,0 +1,100 @@
+{
+  "generated_at": "2025-11-12T17:55:02.267503Z",
+  "tables": [
+    "drug",
+    "prescriber",
+    "prescriber_drug"
+  ],
+  "top_drugs": [
+    {
+      "drug": "Curetril365",
+      "prescriptions": 2174
+    },
+    {
+      "drug": "Swasthlax920",
+      "prescriptions": 2164
+    },
+    {
+      "drug": "Mediprofen276",
+      "prescriptions": 1959
+    },
+    {
+      "drug": "Neolax812",
+      "prescriptions": 1923
+    },
+    {
+      "drug": "Ashadol298",
+      "prescriptions": 1864
+    },
+    {
+      "drug": "Vitastat241",
+      "prescriptions": 1810
+    },
+    {
+      "drug": "Zenstat163",
+      "prescriptions": 1792
+    },
+    {
+      "drug": "Medistat835",
+      "prescriptions": 1790
+    },
+    {
+      "drug": "Vitazym489",
+      "prescriptions": 1788
+    },
+    {
+      "drug": "Carelax502",
+      "prescriptions": 1785
+    },
+    {
+      "drug": "Caremox55",
+      "prescriptions": 1758
+    },
+    {
+      "drug": "Neovex829",
+      "prescriptions": 1758
+    },
+    {
+      "drug": "Zencillin529",
+      "prescriptions": 1749
+    },
+    {
+      "drug": "Carecillin961",
+      "prescriptions": 1745
+    },
+    {
+      "drug": "Apexcillin857",
+      "prescriptions": 1743
+    },
+    {
+      "drug": "Healvirin988",
+      "prescriptions": 1711
+    },
+    {
+      "drug": "Healvir890",
+      "prescriptions": 1702
+    },
+    {
+      "drug": "Meditril764",
+      "prescriptions": 1699
+    },
+    {
+      "drug": "Medicin6",
+      "prescriptions": 1694
+    },
+    {
+      "drug": "Vitafer673",
+      "prescriptions": 1658
+    }
+  ],
+  "summaries": {
+    "tables": [
+      "drug",
+      "prescriber",
+      "prescriber_drug"
+    ],
+    "distinct_drugs": 1000,
+    "distinct_prescribers": 1200,
+    "total_prescriptions": 599651
+  }
+}

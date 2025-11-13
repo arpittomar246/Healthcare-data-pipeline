@@ -1,0 +1,7 @@
+{
+  "test_rows": 1200,
+  "rmse": 41.5341274967546,
+  "r2": 0.48608868955357365,
+  "model_path": "C:\\Users\\arpit\\OneDrive\\Desktop\\healthcare_data_pipeline-main\\local_data\\artifacts\\models\\baseline_model.joblib",
+  "predictions_csv": "C:\\Users\\arpit\\OneDrive\\Desktop\\healthcare_data_pipeline-main\\local_data\\artifacts\\predictions.csv"
+}

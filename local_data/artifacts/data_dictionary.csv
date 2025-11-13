@@ -1,0 +1,13 @@
+table,column,dtype,null_count,unique_count,sample_values
+drug,drug_id,IntegerType(),0,1000,"1|2|3|4|5"
+drug,drug_brand_name,StringType(),0,10,"IndiBrand327|IndiBrand868|IndiBrand327|IndiBrand496|IndiBrand895"
+drug,drug,StringType(),0,9,"Azithromycin|Amoxicillin|Azithromycin|Ibuprofen|Mefenamic acid"
+drug,drug_type,StringType(),0,7,"Antipyretic|Antidiabetic|Antipyretic|Vitamin Supplement|Bronchodilator"
+prescriber,presc_id,IntegerType(),0,1200,"1|2|3|4|5"
+prescriber,presc_fullname,StringType(),0,797,"Miraan Singh|Kavya Iyer|Damini Jain|Rohit Bhat|Ishaan Reddy"
+prescriber,presc_specialty,StringType(),0,19,"Cardiology|Neurology|Radiology|General|Pediatrics"
+prescriber,presc_state_code,StringType(),0,23,"WB|TN|KA|DL|JH"
+prescriber_drug,presc_id,IntegerType(),0,1188,"989|1181|1181|685|247"
+prescriber_drug,drug_brand_name,StringType(),0,599,"Zenmox709|Arotril943|Heallax1|Neovex829|Lifefer681"
+prescriber_drug,total_claims,IntegerType(),0,200,"45|25|98|90|198"
+prescriber_drug,total_drug_cost,DoubleType(),0,5992,"5409.62|3046.94|2238.08|16427.43|11516.25"

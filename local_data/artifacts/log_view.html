@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Pipeline log (live)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body { background:#0e1117; color:#e6ffed; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; margin:12px; }
+      h3 { color:#fff; }
+      #log { white-space: pre-wrap; word-break: break-word; background:#0b0f13; padding:12px; border-radius:6px; height:80vh; overflow:auto; font-size:12px; border:1px solid #18202a; }
+      .meta { color:#9ad9b7; font-size:13px; margin-bottom:8px; }
+      .small { font-size:12px; color:#9aa6b2; }
+      a { color:#60a5fa; }
+    </style>
+  </head>
+  <body>
+    <h3>Pipeline log (live)</h3>
+    <div class="meta">This view fetches <code>pipeline.log</code> every 1s. <span class="small">If empty, ensure pipeline writes to local_data/artifacts/pipeline.log and HTTP server is running.</span></div>
+    <div id="log">Loading...</div>
+    <script>
+      const url = "pipeline.log";
+      const el = document.getElementById("log");
+      let autoScroll = true;
+      el.addEventListener('scroll', () => {
+        const atBottom = (el.scrollHeight - el.clientHeight - el.scrollTop) < 30;
+        autoScroll = atBottom;
+      });
+
+      async function fetchLog() {
+        try {
+          const resp = await fetch(url + "?_=" + Date.now(), {cache: "no-store"});
+          if (!resp.ok) {
+            el.textContent = "Could not fetch log (HTTP " + resp.status + ").";
+            return;
+          }
+          const txt = await resp.text();
+          const tail = txt.length > 200000 ? txt.slice(-200000) : txt;
+          el.textContent = tail;
+          if (autoScroll) {
+            el.scrollTop = el.scrollHeight;
+          }
+        } catch (e) {
+          el.textContent = "Error fetching log: " + e;
+        }
+      }
+
+      fetchLog();
+      setInterval(fetchLog, 1000);
+    </script>
+  </body>
+</html>

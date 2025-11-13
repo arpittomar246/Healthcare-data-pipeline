@@ -16,9 +16,9 @@ venv/
 Thumbs.db
 
 # local data / artifacts generated at runtime (but you may choose to keep small sample data)
-local_data/raw/
-local_data/artifacts/*
-!local_data/artifacts/.gitkeep
+# local_data/raw/
+# local_data/artifacts/*
+# !local_data/artifacts/.gitkeep
 
 # logs and temp
 *.log

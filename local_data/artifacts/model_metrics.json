@@ -1,0 +1,14 @@
+{
+  "mse": 213884088.44437057,
+  "rmse": 14624.776526305302,
+  "mae": 11201.776025000001,
+  "r2": -1.4194373588308316,
+  "n_samples": 1200,
+  "preds_path": "C:\\Users\\arpit\\OneDrive\\Desktop\\healthcare_data_pipeline-main\\local_data\\artifacts\\predictions.csv",
+  "model_path": "C:\\Users\\arpit\\OneDrive\\Desktop\\healthcare_data_pipeline-main\\local_data\\artifacts\\models\\baseline_model.joblib",
+  "plots": {
+    "pred_vs_actual.png": "C:\\Users\\arpit\\OneDrive\\Desktop\\healthcare_data_pipeline-main\\local_data\\artifacts\\plots\\pred_vs_actual.png",
+    "residuals_hist.png": "C:\\Users\\arpit\\OneDrive\\Desktop\\healthcare_data_pipeline-main\\local_data\\artifacts\\plots\\residuals_hist.png",
+    "residuals_vs_pred.png": "C:\\Users\\arpit\\OneDrive\\Desktop\\healthcare_data_pipeline-main\\local_data\\artifacts\\plots\\residuals_vs_pred.png"
+  }
+}
