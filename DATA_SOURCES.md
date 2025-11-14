@@ -1,13 +1,13 @@
-# 🏥 MediCare Healthcare Analytics — Data Sources & Privacy Documentation
+# MediCare Healthcare Analytics — Data Sources & Privacy Documentation
 
-## 1️⃣ Overview
+## 1️ Overview
 This document describes the datasets used in the **MediCare Healthcare Data Pipeline Capstone Project**.  
 All data in this project is **synthetically generated** to replicate realistic Indian healthcare patterns while ensuring **complete privacy and data compliance**.  
 No real patient or provider data has been used.
 
 ---
 
-## 2️⃣ Dataset Catalog
+## 2️ Dataset Catalog
 
 | Dataset Name | Description | Rows | Source / Generation Method | Format | Last Updated |
 |---------------|-------------|------|-----------------------------|---------|---------------|
@@ -19,7 +19,7 @@ No real patient or provider data has been used.
 
 ---
 
-## 3️⃣ Data Schema & Provenance
+## 3️ Data Schema & Provenance
 
 All data is **synthetic** and programmatically generated using:
 - Python’s **`faker`** library with `locale='en_IN'` for Indian context.
@@ -31,18 +31,18 @@ No real-world medical or patient data has been accessed.
 
 ---
 
-## 4️⃣ Privacy, Ethics & Governance
+## 4️ Privacy, Ethics & Governance
 
-- 🔒 **Privacy:** 100% synthetic data, no personal identifiers (no PHI/PII).  
-- 🧩 **Anonymization:** All values (names, IDs) are randomly generated.  
-- 📦 **Storage:** All artifacts (CSV, EDA, Models, Logs) are stored under `local_data/artifacts/`.  
-- 🧱 **Access Control:** Data remains local or in private GitHub repos only.  
-- ⚖️ **Ethics:** Project aligns with HIPAA and GDPR principles for synthetic data handling.  
-- 📄 **License:** Open use for educational/non-commercial purposes.  
+-  **Privacy:** 100% synthetic data, no personal identifiers (no PHI/PII).  
+-  **Anonymization:** All values (names, IDs) are randomly generated.  
+-  **Storage:** All artifacts (CSV, EDA, Models, Logs) are stored under `local_data/artifacts/`.  
+-  **Access Control:** Data remains local or in private GitHub repos only.  
+-  **Ethics:** Project aligns with HIPAA and GDPR principles for synthetic data handling.  
+-  **License:** Open use for educational/non-commercial purposes.  
 
 ---
 
-## 5️⃣ Data Flow Summary
+## 5️ Data Flow Summary
 
 ```text
 prescriber.csv ─┐
@@ -52,7 +52,7 @@ drug.csv ────────┘
 
 ---
 
-## 6️⃣ Known Limitations
+## 6️ Known Limitations
 
 - All numeric and categorical distributions are approximate, not real-world clinical distributions.
 - Some specialty-drug relationships may not perfectly mirror real prescription patterns.

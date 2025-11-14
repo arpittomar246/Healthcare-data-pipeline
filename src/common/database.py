@@ -4,7 +4,7 @@ import logging.config
 from pyspark.sql import SparkSession
 from pyspark.sql.dataframe import DataFrame
 
-# Load logging configuration
+
 logging.config.fileConfig(fname="utils/logging.cfg")
 logger = logging.getLogger(__name__)
 
@@ -91,7 +91,7 @@ class DatabaseConnector:
             data_frame = (
                 self.spark.read.format("jdbc")
                 .option("url", jdbc_url)
-                .option("dbtable", db_table)             # or use .option("query", table_query)
+                .option("dbtable", db_table)            
                 .option("user", self.user)
                 .option("password", self.password)
                 .option("driver", "org.postgresql.Driver")

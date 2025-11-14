@@ -5,7 +5,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.dataframe import DataFrame
 from pyspark.sql import functions as func
 
-# Load logging configuration
+
 logging.config.fileConfig(fname="utils/logging.cfg")
 logger = logging.getLogger(__name__)
 

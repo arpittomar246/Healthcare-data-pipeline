@@ -1,16 +1,4 @@
-#!/usr/bin/env python3
-"""
-Model evaluation utility for the healthcare pipeline.
 
-Usage:
-    python -m src.model_evaluate
-    python -m src.model_evaluate --model local_data/artifacts/models/baseline_model.joblib \
-        --preds local_data/artifacts/predictions.csv --out local_data/artifacts
-
-Produces:
-    - local_data/artifacts/model_metrics.json
-    - local_data/artifacts/plots/*.png
-"""
 import argparse
 from pathlib import Path
 import json
@@ -28,16 +16,9 @@ except Exception as e:
     raise
 
 def safe_read_predictions(preds_path: Path):
-    """Attempt to read predictions CSV and find true/pred numeric columns.
-
-    Strategy:
-      1. Prefer columns with common names (y_true, y_pred, actual, predicted).
-      2. If not present, scan all columns, coerce to numeric and pick the pair
-         with the highest count of numeric (non-NaN) values.
-      3. If no numeric pair found, raise an informative error with samples.
-    """
+    
     df = pd.read_csv(preds_path)
-    # Normalize column lookup (case-insensitive)
+
     col_map = {c.lower(): c for c in df.columns}
 
     preferred_true = ["y_true", "actual", "true", "target"]
@@ -55,7 +36,7 @@ def safe_read_predictions(preds_path: Path):
             found_pred = col_map[name]
             break
 
-    # If both found and both numeric-coercible -> accept
+
     def is_mostly_numeric(series, min_ratio=0.5):
         coerced = pd.to_numeric(series, errors="coerce")
         non_na = coerced.notna().sum()
@@ -64,21 +45,21 @@ def safe_read_predictions(preds_path: Path):
     if found_true and found_pred:
         if is_mostly_numeric(df[found_true]) and is_mostly_numeric(df[found_pred]):
             return df[[found_true, found_pred]].rename(columns={found_true: "y_true", found_pred: "y_pred"})
-        # if preferred names exist but are not numeric, drop them to try heuristics
+
         found_true = None
         found_pred = None
 
-    # Heuristic: find the best numeric column pair (highest numeric counts)
+
     numeric_scores = {}
     for c in df.columns:
         coerced = pd.to_numeric(df[c], errors="coerce")
         numeric_scores[c] = int(coerced.notna().sum())
 
-    # Filter columns with at least one numeric value
+
     numeric_candidates = [c for c, cnt in numeric_scores.items() if cnt > 0]
 
     if len(numeric_candidates) >= 2:
-        # choose pair with largest combined numeric counts
+    
         best_pair = None
         best_score = -1
         for i in range(len(numeric_candidates)):
@@ -90,13 +71,13 @@ def safe_read_predictions(preds_path: Path):
                     best_score = score
                     best_pair = (a, b)
         a, b = best_pair
-        # Coerce and return renamed columns
+
         sub = df[[a, b]].copy()
         sub[a] = pd.to_numeric(sub[a], errors="coerce")
         sub[b] = pd.to_numeric(sub[b], errors="coerce")
-        # If one column ends up all NaN, try reversing or fail
+
         if sub[a].notna().sum() == 0 or sub[b].notna().sum() == 0:
-            # try alternative pairs (fallback)
+      
             for i in range(len(numeric_candidates)):
                 for j in range(i+1, len(numeric_candidates)):
                     a = numeric_candidates[i]
@@ -106,11 +87,11 @@ def safe_read_predictions(preds_path: Path):
                     sub[b] = pd.to_numeric(sub[b], errors="coerce")
                     if sub[a].notna().sum() > 0 and sub[b].notna().sum() > 0:
                         return sub.rename(columns={a: "y_true", b: "y_pred"})
-            # nothing usable
+   
         else:
             return sub.rename(columns={a: "y_true", b: "y_pred"})
 
-    # If we reach here, we couldn't find numeric pair
+
     sample = df.head(10).to_dict(orient="records")
     readable_cols = [{"name": c, "sample": list(df[c].dropna().unique()[:5]), "numeric_count": numeric_scores.get(c, 0)} for c in df.columns]
     msg = (
@@ -163,12 +144,12 @@ def plot_residuals_vs_pred(y_true, y_pred, out_path: Path):
     save_plot(fig, out_path)
 
 def plot_feature_importances(model, feature_names, out_path: Path):
-    # tries to extract feature importances or coef_
+
     if hasattr(model, "feature_importances_"):
         fi = np.array(model.feature_importances_)
     elif hasattr(model, "coef_"):
         coef = np.array(model.coef_)
-        # if multi-dim, take norm or first component
+ 
         if coef.ndim > 1:
             fi = np.abs(coef).sum(axis=0)
         else:
@@ -176,7 +157,7 @@ def plot_feature_importances(model, feature_names, out_path: Path):
     else:
         return False
 
-    # build DataFrame and plot top features
+
     order = np.argsort(-fi)
     labels = np.array(feature_names)[order][:30] if feature_names is not None else np.array([f"f{i}" for i in range(len(fi))])[order][:30]
     vals = fi[order][:30]
@@ -217,7 +198,7 @@ def main(argv=None):
     ensure_dirs(out_dir)
     plots_dir = out_dir / "plots"
 
-    # Load predictions file
+
     if not preds_path.exists():
         print(f"[ERROR] Predictions file not found: {preds_path}")
         sys.exit(2)
@@ -235,7 +216,6 @@ def main(argv=None):
     metrics["preds_path"] = str(preds_path.resolve())
     metrics["model_path"] = str(model_path.resolve()) if model_path.exists() else None
 
-    # plots
     try:
         plot_residuals_hist(y_true, y_pred, plots_dir / "residuals_hist.png")
     except Exception as e:
@@ -249,7 +229,7 @@ def main(argv=None):
     except Exception as e:
         print("Warning: failed to create residuals_vs_pred plot:", e)
 
-    # try to load model for feature importances
+
     fi_saved = False
     feature_names = None
     if model_path.exists():
@@ -261,7 +241,7 @@ def main(argv=None):
         except Exception as e:
             print("Warning: failed to load model or plot feature importances:", e)
 
-    # save metrics JSON
+
     metrics["plots"] = {p.name: str((plots_dir / p.name).resolve()) for p in list(plots_dir.glob("*.png"))}
     out_json = out_dir / "model_metrics.json"
     try:
@@ -270,7 +250,6 @@ def main(argv=None):
     except Exception as e:
         print("Failed to write metrics json:", e)
 
-    # print a short summary to console
     print("Model evaluation summary:")
     print(json.dumps(metrics, indent=2))
 

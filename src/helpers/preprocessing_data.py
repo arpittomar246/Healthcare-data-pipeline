@@ -68,7 +68,7 @@ class Preprocessing:
             try:
                 return self.s3.write_df_to_prq(df, bucket=self.cleansed_bucket, key=target_key, partition_cols=partition_cols)
             except TypeError:
-                # older signature (bucket, key, df, ...)
+        
                 return self.s3.write_df_to_prq(bucket=self.cleansed_bucket, key=target_key, df=df, partition_cols=partition_cols)
         else:
             raise RuntimeError("S3 connector has no write_df_to_prq method")

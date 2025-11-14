@@ -16,7 +16,7 @@ class Transformation:
 
         self._logger = logger or logging.getLogger(self.__class__.__name__)
         self.s3_connector = s3_connector if s3_connector is not None else S3Connector()
-        self.s3 = self.s3_connector  # for compatibility
+        self.s3 = self.s3_connector 
         self.cleansed_bucket = cleansed_bucket
         self.curated_bucket = curated_bucket
         self.raw_bucket = raw_bucket

@@ -596,7 +596,7 @@ def main():
         write_log("Total runtime: n/a")
     write_log("====================\n")
 
-    # Decrypt snippet for mapping
+
     write_log("To decrypt mapping_<ts>.enc locally, see README or use provided snippets in runnerfile.")
 
 if __name__ == "__main__":

@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-Export readable reports (CSV) into a single SQLite DB.
-
-Usage:
-    python -m src.export_sqlite --dir local_data/artifacts/readable_reports --out local_data/artifacts/data.db
-"""
 
 import argparse
 from pathlib import Path
@@ -34,7 +27,7 @@ def csvs_to_sqlite(readable_dir: Path, out_db: Path, if_exists="replace"):
             table_name = f.stem.replace("-", "_").replace(" ", "_").lower()
             df.to_sql(table_name, conn, if_exists=if_exists, index=False)
             print(f"Wrote table `{table_name}` ({len(df)} rows) to {out_db.name}")
-            # create index if typical id column present
+
             cur = conn.cursor()
             for idcol in ("presc_id", "drug_id", "id"):
                 if idcol in df.columns:

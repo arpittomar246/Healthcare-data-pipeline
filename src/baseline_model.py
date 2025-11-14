@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-"""
-Baseline regression to predict `total_claims` from prescriber_drug + prescriber + drug CSVs.
-
-Outputs:
- - model: local_data/artifacts/models/baseline_model.joblib
- - predictions CSV: local_data/artifacts/predictions.csv
- - printed metrics: RMSE, R2
-"""
 
 import sys
 from pathlib import Path
@@ -34,7 +25,7 @@ ARTIFACTS.mkdir(parents=True, exist_ok=True)
 MODELS_DIR = ARTIFACTS / "models"
 MODELS_DIR.mkdir(parents=True, exist_ok=True)
 
-# Paths to input CSVs — adjust if your project uses different paths
+
 PRESCRIBER_DRUG = BASE_DIR / "local_data" / "raw" / "prescriber_drug.csv"
 PRESCRIBER = BASE_DIR / "local_data" / "raw" / "prescriber.csv"
 DRUG = BASE_DIR / "local_data" / "raw" / "drug.csv"
@@ -62,12 +53,6 @@ def prepare_dataset(dfs):
     if pdg is None:
         raise RuntimeError("prescriber_drug.csv is required")
 
-    # ensure columns exist
-    # Expected prescriber_drug: presc_id, drug_brand_name, total_claims, total_drug_cost
-    # prescriber: presc_id, presc_fullname, presc_specialty, presc_state_code
-    # drug: drug_brand_name, drug, drug_type
-
-    # merge prescriber info
     if pr is not None and "presc_id" in pr.columns:
         merged = pdg.merge(pr.drop(columns=[c for c in pr.columns if c not in ["presc_id", "presc_specialty", "presc_state_code"]]),
                             how="left", on="presc_id")
@@ -76,7 +61,7 @@ def prepare_dataset(dfs):
         merged["presc_specialty"] = np.nan
         merged["presc_state_code"] = np.nan
 
-    # merge drug info on brand name
+
     if drug is not None and "drug_brand_name" in drug.columns:
         merged = merged.merge(drug[["drug_brand_name", "drug_type", "drug"]].drop_duplicates(),
                               how="left", on="drug_brand_name")
@@ -84,55 +69,55 @@ def prepare_dataset(dfs):
         merged["drug_type"] = np.nan
         merged["drug"] = np.nan
 
-    # target: total_claims (ensure numeric)
+    
     merged["total_claims"] = pd.to_numeric(merged.get("total_claims", merged.get("total_claims", np.nan)), errors="coerce")
-    # numeric predictor: total_drug_cost
+
     merged["total_drug_cost"] = pd.to_numeric(merged.get("total_drug_cost", np.nan), errors="coerce")
 
-    # drop rows with no target
+
     merged = merged[merged["total_claims"].notnull()].copy()
     if merged.shape[0] == 0:
         raise RuntimeError("No rows with numeric total_claims found to train on.")
 
-    # Fill missing small categorical values with 'unknown'
+
     for c in ["presc_specialty", "presc_state_code", "drug_type", "drug_brand_name", "drug"]:
         if c in merged.columns:
             merged[c] = merged[c].fillna("unknown").astype(str)
         else:
             merged[c] = "unknown"
 
-    # create simple feature: drug_brand_popularity (count of prescribers for brand)
+
     brand_counts = merged.groupby("drug_brand_name").size().to_dict()
     merged["brand_prescriber_count"] = merged["drug_brand_name"].map(brand_counts).fillna(0)
 
-    # Optionally compute prescriber-level prior total claims
+
     presc_claims = merged.groupby("presc_id")["total_claims"].sum().to_dict()
     merged["presc_total_claims_history"] = merged["presc_id"].map(presc_claims).fillna(0)
 
     return merged
 
 def build_and_train(df):
-    # Feature columns
+
     cat_cols = ["presc_specialty", "presc_state_code", "drug_type", "drug_brand_name"]
     num_cols = ["total_drug_cost", "brand_prescriber_count", "presc_total_claims_history"]
 
-    # ensure presence
+
     cat_cols = [c for c in cat_cols if c in df.columns]
     num_cols = [c for c in num_cols if c in df.columns]
 
     X = df[cat_cols + num_cols].copy()
     y = df["total_claims"].values
 
-    # train/test split
+
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # preprocessing
+
     preprocessor = ColumnTransformer(transformers=[
         ("cat", OneHotEncoder(handle_unknown="ignore", sparse_output=False), cat_cols),
         ("num", StandardScaler(), num_cols)
     ], remainder="drop")
 
-    # pipeline
+
     model = Pipeline([
         ("pre", preprocessor),
         ("rf", RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1))
@@ -142,12 +127,12 @@ def build_and_train(df):
     model.fit(X_train, y_train)
     print("Training complete.")
 
-    # predict and metrics
+
     y_pred = model.predict(X_test)
     import numpy as np
     from sklearn.metrics import mean_squared_error
 
-    # compute MSE then RMSE (works with all sklearn versions)
+
     mse = mean_squared_error(y_test, y_pred)
     rmse = float(np.sqrt(mse))
     r2 = r2_score(y_test, y_pred)
@@ -155,7 +140,7 @@ def build_and_train(df):
     print(f"Test RMSE: {rmse:.4f}")
     print(f"Test R2: {r2:.4f}")
 
-    # Save model and predictions
+
     model_path = MODELS_DIR / "baseline_model.joblib"
     joblib.dump(model, model_path)
     print(f"Saved model to: {model_path}")
@@ -167,7 +152,7 @@ def build_and_train(df):
     preds_df.to_csv(out_preds, index=False)
     print(f"Saved test predictions to: {out_preds}")
 
-    # Save a tiny JSON summary
+
     summary = {
         "test_rows": int(len(y_test)),
         "rmse": float(rmse),

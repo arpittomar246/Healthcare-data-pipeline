@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-"""
-Simple validation script for readable reports.
-
-Usage:
-    python -m src.validate local_data/artifacts/readable_reports [--out local_data/artifacts/validation_report.json]
-
-Writes a JSON validation report summarizing:
- - file presence
- - row counts
- - missing values per column
- - duplicate key checks (if id columns exist)
-"""
 
 import json
 import sys
@@ -36,7 +23,7 @@ def inspect_file(p: Path):
         "missing_counts": {col: int(df[col].isna().sum()) for col in df.columns},
         "sample_head": df.head(3).to_dict(orient="records"),
     }
-    # basic duplicate key checks for typical id columns
+
     for possible_id in ("presc_id", "drug_id", "id"):
         if possible_id in df.columns:
             dup = int(df.duplicated(subset=[possible_id]).sum())

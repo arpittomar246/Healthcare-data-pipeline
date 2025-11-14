@@ -1,4 +1,4 @@
-"""Extract data from source database and save as-is into raw zone of datalake"""
+
 import logging
 import logging.config
 from datetime import datetime
@@ -53,7 +53,7 @@ def ingest_data(
                 existing_df = None
 
             if existing_df is not None:
-                # detect candidate id column names
+   
                 candidates = ["id", f"{db_table}_id", "drug_id", "presc_id", "prescriber_id", "presc_id", "record_id"]
                 cols = [c.lower() for c in existing_df.columns]
                 found = None
@@ -73,7 +73,7 @@ def ingest_data(
 
                     if max_val is not None:
                         logger.info("Will run incremental query for %s where %s > %s", db_table, found, str(max_val))
-                        # Use the detected column in the WHERE clause
+             
                         table_query = f"(SELECT * FROM {db_table} WHERE {found} > {max_val}) tmp"
                     else:
                         logger.info("No max value found; falling back to full load for %s", db_table)
